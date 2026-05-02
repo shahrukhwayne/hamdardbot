@@ -15,7 +15,7 @@ logger = logging.getLogger("llm_handler")
 
 OPENROUTER_URL = "https://openrouter.ai/api/v1/chat/completions"
 MODEL = "meta-llama/llama-3-8b-instruct"
-MAX_TOKENS = 300
+MAX_TOKENS = 700
 
 SYSTEM_PROMPT = (
     "You are HamdardBot, an expert AI assistant for Jamia Hamdard University.\n"
