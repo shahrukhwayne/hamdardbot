@@ -1,0 +1,43 @@
+{
+  "vocab_size": 326,
+  "num_intents": 28,
+  "num_samples": 314,
+  "final_accuracy": 99.36,
+  "final_loss": 0.3391,
+  "hidden_sizes": [
+    128,
+    64
+  ],
+  "learning_rate": 0.005,
+  "epochs_run": 1000,
+  "tags": [
+    "greeting",
+    "goodbye",
+    "bot_identity",
+    "courses",
+    "admission",
+    "fees",
+    "hostel",
+    "scholarships",
+    "placements",
+    "rankings",
+    "contact",
+    "news",
+    "notices",
+    "library",
+    "sports",
+    "faculty",
+    "research",
+    "transport",
+    "canteen",
+    "exams",
+    "clubs",
+    "international",
+    "pharmacy",
+    "medicine",
+    "management",
+    "thanks",
+    "confused",
+    "campus_life"
+  ]
+}

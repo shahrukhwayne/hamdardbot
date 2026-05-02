@@ -1,0 +1,941 @@
+2026-04-20 13:15:55,327 [INFO] app: ============================================================
+2026-04-20 13:15:55,328 [INFO] app:   Jamia Hamdard Chatbot — Flask Server Starting
+2026-04-20 13:15:55,328 [INFO] app: ============================================================
+2026-04-20 13:15:55,335 [INFO] intent_handler: [IntentHandler] Model loaded. Tags: 27, Vocab: 320
+2026-04-20 13:15:55,335 [INFO] intent_handler: [IntentHandler] Initialized.
+2026-04-20 13:15:55,336 [INFO] app: ✅ Model loaded. 27 intents, 320 vocab words.
+2026-04-20 13:15:55,336 [INFO] app: LLM Mode: rule_based
+2026-04-20 13:15:55,336 [INFO] app: Starting Flask server on http://0.0.0.0:5000
+2026-04-20 13:15:55,378 [INFO] werkzeug: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.103:5000
+2026-04-20 13:15:55,379 [INFO] werkzeug: [33mPress CTRL+C to quit[0m
+2026-04-20 13:16:11,703 [INFO] werkzeug: 127.0.0.1 - - [20/Apr/2026 13:16:11] "[33mGET / HTTP/1.1[0m" 404 -
+2026-04-20 13:16:11,761 [INFO] werkzeug: 127.0.0.1 - - [20/Apr/2026 13:16:11] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-04-20 13:16:30,860 [INFO] werkzeug: 127.0.0.1 - - [20/Apr/2026 13:16:30] "[33mGET / HTTP/1.1[0m" 404 -
+2026-04-20 13:16:30,935 [INFO] werkzeug: 127.0.0.1 - - [20/Apr/2026 13:16:30] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-04-20 13:16:57,339 [INFO] werkzeug: 192.168.0.103 - - [20/Apr/2026 13:16:57] "[33mGET / HTTP/1.1[0m" 404 -
+2026-04-20 13:16:57,397 [INFO] werkzeug: 192.168.0.103 - - [20/Apr/2026 13:16:57] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-04-20 13:16:59,312 [INFO] werkzeug: 192.168.0.103 - - [20/Apr/2026 13:16:59] "[33mGET / HTTP/1.1[0m" 404 -
+2026-04-20 13:17:18,593 [INFO] werkzeug: 127.0.0.1 - - [20/Apr/2026 13:17:18] "[33mGET / HTTP/1.1[0m" 404 -
+2026-04-20 13:17:35,916 [INFO] werkzeug: 127.0.0.1 - - [20/Apr/2026 13:17:35] "[33mGET / HTTP/1.1[0m" 404 -
+2026-04-20 13:17:37,072 [INFO] werkzeug: 127.0.0.1 - - [20/Apr/2026 13:17:37] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-04-20 13:17:44,655 [INFO] werkzeug: 127.0.0.1 - - [20/Apr/2026 13:17:44] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-04-20 13:18:16,011 [INFO] werkzeug: 127.0.0.1 - - [20/Apr/2026 13:18:16] "[33mGET /index.html HTTP/1.1[0m" 404 -
+2026-04-20 13:18:16,110 [INFO] werkzeug: 127.0.0.1 - - [20/Apr/2026 13:18:16] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-04-20 13:18:32,403 [INFO] werkzeug: 127.0.0.1 - - [20/Apr/2026 13:18:32] "GET /api/health HTTP/1.1" 200 -
+2026-04-20 13:18:32,468 [INFO] werkzeug: 127.0.0.1 - - [20/Apr/2026 13:18:32] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-04-20 13:28:58,729 [INFO] app: ============================================================
+2026-04-20 13:28:58,729 [INFO] app:   Jamia Hamdard Chatbot — Flask Server Starting
+2026-04-20 13:28:58,731 [INFO] app: ============================================================
+2026-04-20 13:28:58,737 [INFO] intent_handler: [IntentHandler] Model loaded. Tags: 27, Vocab: 320
+2026-04-20 13:28:58,737 [INFO] intent_handler: [IntentHandler] Initialized.
+2026-04-20 13:28:58,737 [INFO] app: ✅ Model loaded. 27 intents, 320 vocab words.
+2026-04-20 13:28:58,738 [INFO] app: LLM Mode: openrouter_llm
+2026-04-20 13:28:58,738 [INFO] app: Starting Flask server on http://0.0.0.0:5000
+2026-04-20 13:28:58,787 [INFO] werkzeug: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.103:5000
+2026-04-20 13:28:58,788 [INFO] werkzeug: [33mPress CTRL+C to quit[0m
+2026-04-20 13:29:11,012 [INFO] werkzeug: 127.0.0.1 - - [20/Apr/2026 13:29:11] "GET /api/health HTTP/1.1" 200 -
+2026-04-20 13:29:16,978 [INFO] werkzeug: 127.0.0.1 - - [20/Apr/2026 13:29:16] "GET /api/health HTTP/1.1" 200 -
+2026-04-20 13:29:17,906 [INFO] werkzeug: 127.0.0.1 - - [20/Apr/2026 13:29:17] "GET /api/health HTTP/1.1" 200 -
+2026-04-20 13:29:28,027 [INFO] werkzeug: 127.0.0.1 - - [20/Apr/2026 13:29:28] "[33mGET /api/ HTTP/1.1[0m" 404 -
+2026-04-20 13:32:18,975 [INFO] werkzeug: 127.0.0.1 - - [20/Apr/2026 13:32:18] "GET / HTTP/1.1" 200 -
+2026-04-20 13:32:22,716 [INFO] app: [Chat] Incoming: 'How to apply for admission?'
+2026-04-20 13:32:22,826 [INFO] scraper: [Scraper] Attempt 1: https://jamiahamdard.edu/admissions
+2026-04-20 13:32:23,465 [WARNING] scraper: [Scraper] Attempt 1 failed: HTTPSConnectionPool(host='jamiahamdard.edu', port=443): Max retries exceeded with url: /admissions (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1000)')))
+2026-04-20 13:32:25,467 [INFO] scraper: [Scraper] Attempt 2: https://jamiahamdard.edu/admissions
+2026-04-20 13:32:25,795 [WARNING] scraper: [Scraper] Attempt 2 failed: HTTPSConnectionPool(host='jamiahamdard.edu', port=443): Max retries exceeded with url: /admissions (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1000)')))
+2026-04-20 13:32:29,798 [INFO] scraper: [Scraper] Attempt 3: https://jamiahamdard.edu/admissions
+2026-04-20 13:32:30,199 [WARNING] scraper: [Scraper] Attempt 3 failed: HTTPSConnectionPool(host='jamiahamdard.edu', port=443): Max retries exceeded with url: /admissions (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1000)')))
+2026-04-20 13:32:30,199 [ERROR] scraper: [Scraper] All 3 attempts failed for https://jamiahamdard.edu/admissions
+2026-04-20 13:32:30,199 [INFO] scraper: [Scraper] Attempt 1: https://jamiahamdard.edu/admission
+2026-04-20 13:32:30,610 [WARNING] scraper: [Scraper] Attempt 1 failed: HTTPSConnectionPool(host='jamiahamdard.edu', port=443): Max retries exceeded with url: /admission (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1000)')))
+2026-04-20 13:32:32,611 [INFO] scraper: [Scraper] Attempt 2: https://jamiahamdard.edu/admission
+2026-04-20 13:32:33,003 [WARNING] scraper: [Scraper] Attempt 2 failed: HTTPSConnectionPool(host='jamiahamdard.edu', port=443): Max retries exceeded with url: /admission (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1000)')))
+2026-04-20 13:32:37,004 [INFO] scraper: [Scraper] Attempt 3: https://jamiahamdard.edu/admission
+2026-04-20 13:32:37,367 [WARNING] scraper: [Scraper] Attempt 3 failed: HTTPSConnectionPool(host='jamiahamdard.edu', port=443): Max retries exceeded with url: /admission (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1000)')))
+2026-04-20 13:32:37,368 [ERROR] scraper: [Scraper] All 3 attempts failed for https://jamiahamdard.edu/admission
+2026-04-20 13:32:37,368 [INFO] scraper: [Scraper] Attempt 1: https://jamiahamdard.edu/admission-2024
+2026-04-20 13:32:37,695 [WARNING] scraper: [Scraper] Attempt 1 failed: HTTPSConnectionPool(host='jamiahamdard.edu', port=443): Max retries exceeded with url: /admission-2024 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1000)')))
+2026-04-20 13:32:39,698 [INFO] scraper: [Scraper] Attempt 2: https://jamiahamdard.edu/admission-2024
+2026-04-20 13:32:40,048 [WARNING] scraper: [Scraper] Attempt 2 failed: HTTPSConnectionPool(host='jamiahamdard.edu', port=443): Max retries exceeded with url: /admission-2024 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1000)')))
+2026-04-20 13:32:44,049 [INFO] scraper: [Scraper] Attempt 3: https://jamiahamdard.edu/admission-2024
+2026-04-20 13:32:44,393 [WARNING] scraper: [Scraper] Attempt 3 failed: HTTPSConnectionPool(host='jamiahamdard.edu', port=443): Max retries exceeded with url: /admission-2024 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1000)')))
+2026-04-20 13:32:44,393 [ERROR] scraper: [Scraper] All 3 attempts failed for https://jamiahamdard.edu/admission-2024
+2026-04-20 13:32:44,395 [INFO] intent_handler: [Handler] query='How to apply for admission?' → intent=admission type=dynamic conf=0.99
+2026-04-20 13:32:44,396 [INFO] app: [Chat] intent=admission type=dynamic conf=0.99 time=21707.92ms
+2026-04-20 13:32:44,404 [INFO] werkzeug: 127.0.0.1 - - [20/Apr/2026 13:32:44] "POST /api/chat HTTP/1.1" 200 -
+2026-04-20 13:32:59,074 [INFO] app: [Chat] Incoming: 'hiii'
+2026-04-20 13:32:59,075 [INFO] intent_handler: [NLP Fallback] tag=greeting, score=1, conf=0.15
+2026-04-20 13:32:59,076 [INFO] llm_handler: [LLM] Trying FREE LLM...
+2026-04-20 13:32:59,875 [ERROR] llm_handler: [LLM ERROR] 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-04-20 13:32:59,878 [WARNING] llm_handler: [LLM] Falling back to rule-based NLP
+2026-04-20 13:32:59,883 [INFO] intent_handler: [Handler] query='hiii' → intent=llm_handled type=llm conf=0.00
+2026-04-20 13:32:59,883 [INFO] app: [Chat] intent=llm_handled type=llm conf=0.0 time=809.27ms
+2026-04-20 13:32:59,884 [INFO] werkzeug: 127.0.0.1 - - [20/Apr/2026 13:32:59] "POST /api/chat HTTP/1.1" 200 -
+2026-04-20 13:33:11,566 [INFO] app: [Chat] Incoming: 'hii how are you'
+2026-04-20 13:33:11,568 [INFO] intent_handler: [Handler] query='hii how are you' → intent=bot_identity type=static conf=0.98
+2026-04-20 13:33:11,568 [INFO] app: [Chat] intent=bot_identity type=static conf=0.9829 time=2.19ms
+2026-04-20 13:33:11,569 [INFO] werkzeug: 127.0.0.1 - - [20/Apr/2026 13:33:11] "POST /api/chat HTTP/1.1" 200 -
+2026-04-20 13:33:29,198 [INFO] app: [Chat] Incoming: 'kaise ho'
+2026-04-20 13:33:29,201 [INFO] intent_handler: [NLP Fallback] tag=bot_identity, score=1, conf=0.15
+2026-04-20 13:33:29,201 [INFO] llm_handler: [LLM] Trying FREE LLM...
+2026-04-20 13:33:29,533 [ERROR] llm_handler: [LLM ERROR] 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-04-20 13:33:29,533 [WARNING] llm_handler: [LLM] Falling back to rule-based NLP
+2026-04-20 13:33:29,535 [INFO] intent_handler: [Handler] query='kaise ho' → intent=llm_handled type=llm conf=0.00
+2026-04-20 13:33:29,535 [INFO] app: [Chat] intent=llm_handled type=llm conf=0.0 time=336.68ms
+2026-04-20 13:33:29,535 [INFO] werkzeug: 127.0.0.1 - - [20/Apr/2026 13:33:29] "POST /api/chat HTTP/1.1" 200 -
+2026-04-20 13:33:46,477 [INFO] app: [Chat] Incoming: 'last date to apply fro admission'
+2026-04-20 13:33:46,477 [INFO] intent_handler: [Handler] query='last date to apply fro admission' → intent=admission type=dynamic conf=0.99
+2026-04-20 13:33:46,478 [INFO] app: [Chat] intent=admission type=dynamic conf=0.99 time=3.91ms
+2026-04-20 13:33:46,478 [INFO] werkzeug: 127.0.0.1 - - [20/Apr/2026 13:33:46] "POST /api/chat HTTP/1.1" 200 -
+2026-04-20 13:34:20,304 [INFO] app: [Chat] Incoming: 'Tell me about hostel facilities'
+2026-04-20 13:34:20,305 [INFO] intent_handler: [Handler] query='Tell me about hostel facilities' → intent=hostel type=static conf=0.99
+2026-04-20 13:34:20,305 [INFO] app: [Chat] intent=hostel type=static conf=0.99 time=1.0ms
+2026-04-20 13:34:20,306 [INFO] werkzeug: 127.0.0.1 - - [20/Apr/2026 13:34:20] "POST /api/chat HTTP/1.1" 200 -
+2026-04-20 13:34:27,119 [INFO] app: [Chat] Incoming: 'What courses are offered?'
+2026-04-20 13:34:27,120 [INFO] intent_handler: [Handler] query='What courses are offered?' → intent=courses type=static conf=0.99
+2026-04-20 13:34:27,121 [INFO] app: [Chat] intent=courses type=static conf=0.99 time=3.03ms
+2026-04-20 13:34:27,121 [INFO] werkzeug: 127.0.0.1 - - [20/Apr/2026 13:34:27] "POST /api/chat HTTP/1.1" 200 -
+2026-04-20 13:34:53,319 [INFO] app: [Chat] Incoming: 'is admission open in jamia hamdard'
+2026-04-20 13:34:53,321 [INFO] intent_handler: [Handler] query='is admission open in jamia hamdard' → intent=admission type=dynamic conf=0.99
+2026-04-20 13:34:53,322 [INFO] app: [Chat] intent=admission type=dynamic conf=0.99 time=1.86ms
+2026-04-20 13:34:53,322 [INFO] werkzeug: 127.0.0.1 - - [20/Apr/2026 13:34:53] "POST /api/chat HTTP/1.1" 200 -
+2026-04-20 13:35:31,770 [INFO] app: [Chat] Incoming: 'What courses are offered?'
+2026-04-20 13:35:31,773 [INFO] intent_handler: [Handler] query='What courses are offered?' → intent=courses type=static conf=0.99
+2026-04-20 13:35:31,774 [INFO] app: [Chat] intent=courses type=static conf=0.99 time=3.89ms
+2026-04-20 13:35:31,774 [INFO] werkzeug: 127.0.0.1 - - [20/Apr/2026 13:35:31] "POST /api/chat HTTP/1.1" 200 -
+2026-04-20 13:35:52,380 [INFO] app: [Chat] Incoming: 'ba courses'
+2026-04-20 13:35:52,380 [INFO] intent_handler: [Handler] query='ba courses' → intent=courses type=static conf=0.97
+2026-04-20 13:35:52,381 [INFO] app: [Chat] intent=courses type=static conf=0.9683 time=1.4ms
+2026-04-20 13:35:52,381 [INFO] werkzeug: 127.0.0.1 - - [20/Apr/2026 13:35:52] "POST /api/chat HTTP/1.1" 200 -
+2026-04-20 13:36:25,759 [INFO] app: [Chat] Incoming: 'what are you?'
+2026-04-20 13:36:25,760 [INFO] intent_handler: [Handler] query='what are you?' → intent=bot_identity type=static conf=0.99
+2026-04-20 13:36:25,760 [INFO] app: [Chat] intent=bot_identity type=static conf=0.99 time=1.5ms
+2026-04-20 13:36:25,762 [INFO] werkzeug: 127.0.0.1 - - [20/Apr/2026 13:36:25] "POST /api/chat HTTP/1.1" 200 -
+2026-04-20 13:36:31,716 [INFO] app: [Chat] Incoming: 'who are you?'
+2026-04-20 13:36:31,717 [INFO] intent_handler: [Handler] query='who are you?' → intent=bot_identity type=static conf=0.99
+2026-04-20 13:36:31,717 [INFO] app: [Chat] intent=bot_identity type=static conf=0.99 time=1.0ms
+2026-04-20 13:36:31,718 [INFO] werkzeug: 127.0.0.1 - - [20/Apr/2026 13:36:31] "POST /api/chat HTTP/1.1" 200 -
+2026-04-20 13:37:10,304 [INFO] app: [Chat] Incoming: 'How do I apply for admission in Jamia Hamdard?'
+2026-04-20 13:37:10,306 [INFO] intent_handler: [Handler] query='How do I apply for admission in Jamia Hamdard?' → intent=admission type=dynamic conf=0.99
+2026-04-20 13:37:10,306 [INFO] app: [Chat] intent=admission type=dynamic conf=0.99 time=1.29ms
+2026-04-20 13:37:10,306 [INFO] werkzeug: 127.0.0.1 - - [20/Apr/2026 13:37:10] "POST /api/chat HTTP/1.1" 200 -
+2026-04-20 13:37:25,184 [INFO] app: [Chat] Incoming: 'What is the fee structure of Jamia Hamdard?'
+2026-04-20 13:37:25,185 [INFO] intent_handler: [Handler] query='What is the fee structure of Jamia Hamdard?' → intent=fees type=static conf=0.90
+2026-04-20 13:37:25,185 [INFO] app: [Chat] intent=fees type=static conf=0.8962 time=1.49ms
+2026-04-20 13:37:25,187 [INFO] werkzeug: 127.0.0.1 - - [20/Apr/2026 13:37:25] "POST /api/chat HTTP/1.1" 200 -
+2026-04-20 13:37:39,500 [INFO] app: [Chat] Incoming: 'Explain Jamia Hamdard in detail like a brochure'
+2026-04-20 13:37:39,506 [INFO] intent_handler: [NLP Fallback] tag=bot_identity, score=1, conf=0.15
+2026-04-20 13:37:39,509 [INFO] llm_handler: [LLM] Trying FREE LLM...
+2026-04-20 13:37:41,109 [ERROR] llm_handler: [LLM ERROR] 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-04-20 13:37:41,116 [WARNING] llm_handler: [LLM] Falling back to rule-based NLP
+2026-04-20 13:37:41,118 [INFO] intent_handler: [Handler] query='Explain Jamia Hamdard in detail like a brochure' → intent=llm_handled type=llm conf=0.00
+2026-04-20 13:37:41,119 [INFO] app: [Chat] intent=llm_handled type=llm conf=0.0 time=1619.29ms
+2026-04-20 13:37:41,123 [INFO] werkzeug: 127.0.0.1 - - [20/Apr/2026 13:37:41] "POST /api/chat HTTP/1.1" 200 -
+2026-04-20 13:38:58,618 [INFO] werkzeug: 127.0.0.1 - - [20/Apr/2026 13:38:58] "[36mGET / HTTP/1.1[0m" 304 -
+2026-04-20 13:39:23,490 [INFO] app: [Chat] Incoming: 'Tell me everything about campus life and opportunities'
+2026-04-20 13:39:23,553 [INFO] intent_handler: [Handler] query='Tell me everything about campus life and opportunities' → intent=bot_identity type=static conf=0.79
+2026-04-20 13:39:23,554 [INFO] app: [Chat] intent=bot_identity type=static conf=0.789 time=87.85ms
+2026-04-20 13:39:23,564 [INFO] werkzeug: 127.0.0.1 - - [20/Apr/2026 13:39:23] "POST /api/chat HTTP/1.1" 200 -
+2026-04-20 13:42:28,537 [INFO] app: ============================================================
+2026-04-20 13:42:28,538 [INFO] app:   Jamia Hamdard Chatbot — Flask Server Starting
+2026-04-20 13:42:28,538 [INFO] app: ============================================================
+2026-04-20 13:42:28,541 [INFO] intent_handler: [IntentHandler] Model loaded. Tags: 28, Vocab: 326
+2026-04-20 13:42:28,541 [INFO] intent_handler: [IntentHandler] Initialized.
+2026-04-20 13:42:28,542 [INFO] app: ✅ Model loaded. 28 intents, 326 vocab words.
+2026-04-20 13:42:28,542 [INFO] app: LLM Mode: openrouter_llm
+2026-04-20 13:42:28,542 [INFO] app: Starting Flask server on http://0.0.0.0:5000
+2026-04-20 13:42:28,594 [INFO] werkzeug: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.103:5000
+2026-04-20 13:42:28,595 [INFO] werkzeug: [33mPress CTRL+C to quit[0m
+2026-04-20 13:44:52,171 [INFO] werkzeug: 127.0.0.1 - - [20/Apr/2026 13:44:52] "[36mGET / HTTP/1.1[0m" 304 -
+2026-04-20 13:45:03,212 [INFO] app: [Chat] Incoming: 'hii'
+2026-04-20 13:45:03,228 [INFO] intent_handler: [NLP Fallback] tag=greeting, score=1, conf=0.15
+2026-04-20 13:45:03,230 [INFO] llm_handler: [LLM] Trying FREE LLM...
+2026-04-20 13:45:04,073 [ERROR] llm_handler: [LLM ERROR] 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-04-20 13:45:04,074 [WARNING] llm_handler: [LLM] Falling back to rule-based NLP
+2026-04-20 13:45:04,075 [INFO] intent_handler: [Handler] query='hii' → intent=llm_handled type=llm conf=0.00
+2026-04-20 13:45:04,075 [INFO] app: [Chat] intent=llm_handled type=llm conf=0.0 time=876.81ms
+2026-04-20 13:45:04,077 [INFO] werkzeug: 127.0.0.1 - - [20/Apr/2026 13:45:04] "POST /api/chat HTTP/1.1" 200 -
+2026-04-20 13:45:08,160 [INFO] werkzeug: 127.0.0.1 - - [20/Apr/2026 13:45:08] "[36mGET / HTTP/1.1[0m" 304 -
+2026-04-20 13:45:11,558 [INFO] app: [Chat] Incoming: 'hii'
+2026-04-20 13:45:11,559 [INFO] intent_handler: [NLP Fallback] tag=greeting, score=1, conf=0.15
+2026-04-20 13:45:11,559 [INFO] llm_handler: [LLM] Trying FREE LLM...
+2026-04-20 13:45:11,925 [ERROR] llm_handler: [LLM ERROR] 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-04-20 13:45:11,927 [WARNING] llm_handler: [LLM] Falling back to rule-based NLP
+2026-04-20 13:45:11,927 [INFO] intent_handler: [Handler] query='hii' → intent=llm_handled type=llm conf=0.00
+2026-04-20 13:45:11,927 [INFO] app: [Chat] intent=llm_handled type=llm conf=0.0 time=369.38ms
+2026-04-20 13:45:11,927 [INFO] werkzeug: 127.0.0.1 - - [20/Apr/2026 13:45:11] "POST /api/chat HTTP/1.1" 200 -
+2026-04-20 13:46:02,455 [INFO] app: [Chat] Incoming: 'Tell me everything about campus life and opportunities at Jamia Hamdard'
+2026-04-20 13:46:02,462 [INFO] intent_handler: [Handler] query='Tell me everything about campus life and opportunities at Jamia Hamdard' → intent=campus_life type=static conf=1.00
+2026-04-20 13:46:02,463 [INFO] app: [Chat] intent=campus_life type=static conf=0.9997 time=10.44ms
+2026-04-20 13:46:02,463 [INFO] werkzeug: 127.0.0.1 - - [20/Apr/2026 13:46:02] "POST /api/chat HTTP/1.1" 200 -
+2026-04-20 13:46:24,738 [INFO] app: [Chat] Incoming: 'What is the latest admission update for Jamia Hamdard?'
+2026-04-20 13:46:24,739 [INFO] intent_handler: [NLP Fallback] tag=news, score=2, conf=0.30
+2026-04-20 13:46:24,744 [INFO] scraper: [Scraper] Attempt 1: https://jamiahamdard.edu/news-events
+2026-04-20 13:46:25,122 [WARNING] scraper: [Scraper] Attempt 1 failed: HTTPSConnectionPool(host='jamiahamdard.edu', port=443): Max retries exceeded with url: /news-events (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1000)')))
+2026-04-20 13:46:27,124 [INFO] scraper: [Scraper] Attempt 2: https://jamiahamdard.edu/news-events
+2026-04-20 13:46:27,440 [WARNING] scraper: [Scraper] Attempt 2 failed: HTTPSConnectionPool(host='jamiahamdard.edu', port=443): Max retries exceeded with url: /news-events (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1000)')))
+2026-04-20 13:46:31,441 [INFO] scraper: [Scraper] Attempt 3: https://jamiahamdard.edu/news-events
+2026-04-20 13:46:31,834 [WARNING] scraper: [Scraper] Attempt 3 failed: HTTPSConnectionPool(host='jamiahamdard.edu', port=443): Max retries exceeded with url: /news-events (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1000)')))
+2026-04-20 13:46:31,834 [ERROR] scraper: [Scraper] All 3 attempts failed for https://jamiahamdard.edu/news-events
+2026-04-20 13:46:31,836 [INFO] intent_handler: [Handler] query='What is the latest admission update for Jamia Hamdard?' → intent=news type=dynamic conf=0.30
+2026-04-20 13:46:31,836 [INFO] app: [Chat] intent=news type=dynamic conf=0.3 time=7098.43ms
+2026-04-20 13:46:31,837 [INFO] werkzeug: 127.0.0.1 - - [20/Apr/2026 13:46:31] "POST /api/chat HTTP/1.1" 200 -
+2026-04-20 13:49:42,055 [INFO] werkzeug: 127.0.0.1 - - [20/Apr/2026 13:49:42] "[36mGET / HTTP/1.1[0m" 304 -
+2026-04-20 13:49:46,139 [INFO] app: [Chat] Incoming: 'hii'
+2026-04-20 13:49:46,474 [INFO] intent_handler: [NLP Fallback] tag=greeting, score=1, conf=0.15
+2026-04-20 13:49:46,487 [INFO] llm_handler: [LLM] Trying FREE LLM...
+2026-04-20 13:49:48,009 [ERROR] llm_handler: [LLM ERROR] 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-04-20 13:49:48,016 [WARNING] llm_handler: [LLM] Falling back to rule-based NLP
+2026-04-20 13:49:48,029 [INFO] intent_handler: [Handler] query='hii' → intent=llm_handled type=llm conf=0.00
+2026-04-20 13:49:48,031 [INFO] app: [Chat] intent=llm_handled type=llm conf=0.0 time=1990.28ms
+2026-04-20 13:49:48,051 [INFO] werkzeug: 127.0.0.1 - - [20/Apr/2026 13:49:48] "POST /api/chat HTTP/1.1" 200 -
+2026-04-20 13:50:15,124 [INFO] app: [Chat] Incoming: 'hello'
+2026-04-20 13:50:15,128 [INFO] intent_handler: [Handler] query='hello' → intent=greeting type=static conf=0.71
+2026-04-20 13:50:15,128 [INFO] app: [Chat] intent=greeting type=static conf=0.708 time=6.28ms
+2026-04-20 13:50:15,131 [INFO] werkzeug: 127.0.0.1 - - [20/Apr/2026 13:50:15] "POST /api/chat HTTP/1.1" 200 -
+2026-04-20 13:50:28,449 [INFO] app: [Chat] Incoming: 'good morning'
+2026-04-20 13:50:28,450 [INFO] intent_handler: [Handler] query='good morning' → intent=greeting type=static conf=0.99
+2026-04-20 13:50:28,450 [INFO] app: [Chat] intent=greeting type=static conf=0.99 time=1.04ms
+2026-04-20 13:50:28,451 [INFO] werkzeug: 127.0.0.1 - - [20/Apr/2026 13:50:28] "POST /api/chat HTTP/1.1" 200 -
+2026-04-20 13:50:39,816 [INFO] app: [Chat] Incoming: 'Tell me about hostel facilities'
+2026-04-20 13:50:39,817 [INFO] intent_handler: [Handler] query='Tell me about hostel facilities' → intent=hostel type=static conf=0.99
+2026-04-20 13:50:39,817 [INFO] app: [Chat] intent=hostel type=static conf=0.99 time=1.02ms
+2026-04-20 13:50:39,818 [INFO] werkzeug: 127.0.0.1 - - [20/Apr/2026 13:50:39] "POST /api/chat HTTP/1.1" 200 -
+2026-04-20 13:50:44,288 [INFO] app: [Chat] Incoming: 'Latest news and events'
+2026-04-20 13:50:44,295 [INFO] intent_handler: [Handler] query='Latest news and events' → intent=news type=dynamic conf=0.99
+2026-04-20 13:50:44,297 [INFO] app: [Chat] intent=news type=dynamic conf=0.99 time=10.19ms
+2026-04-20 13:50:44,298 [INFO] werkzeug: 127.0.0.1 - - [20/Apr/2026 13:50:44] "POST /api/chat HTTP/1.1" 200 -
+2026-04-20 13:50:53,298 [INFO] app: [Chat] Incoming: 'admissions'
+2026-04-20 13:50:53,301 [INFO] scraper: [Scraper] Attempt 1: https://jamiahamdard.edu/admissions
+2026-04-20 13:50:54,205 [WARNING] scraper: [Scraper] Attempt 1 failed: HTTPSConnectionPool(host='jamiahamdard.edu', port=443): Max retries exceeded with url: /admissions (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1000)')))
+2026-04-20 13:50:56,206 [INFO] scraper: [Scraper] Attempt 2: https://jamiahamdard.edu/admissions
+2026-04-20 13:50:56,674 [WARNING] scraper: [Scraper] Attempt 2 failed: HTTPSConnectionPool(host='jamiahamdard.edu', port=443): Max retries exceeded with url: /admissions (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1000)')))
+2026-04-20 13:51:00,675 [INFO] scraper: [Scraper] Attempt 3: https://jamiahamdard.edu/admissions
+2026-04-20 13:51:01,071 [WARNING] scraper: [Scraper] Attempt 3 failed: HTTPSConnectionPool(host='jamiahamdard.edu', port=443): Max retries exceeded with url: /admissions (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1000)')))
+2026-04-20 13:51:01,071 [ERROR] scraper: [Scraper] All 3 attempts failed for https://jamiahamdard.edu/admissions
+2026-04-20 13:51:01,072 [INFO] scraper: [Scraper] Attempt 1: https://jamiahamdard.edu/admission
+2026-04-20 13:51:01,386 [WARNING] scraper: [Scraper] Attempt 1 failed: HTTPSConnectionPool(host='jamiahamdard.edu', port=443): Max retries exceeded with url: /admission (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1000)')))
+2026-04-20 13:51:03,387 [INFO] scraper: [Scraper] Attempt 2: https://jamiahamdard.edu/admission
+2026-04-20 13:51:03,720 [WARNING] scraper: [Scraper] Attempt 2 failed: HTTPSConnectionPool(host='jamiahamdard.edu', port=443): Max retries exceeded with url: /admission (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1000)')))
+2026-04-20 13:51:07,722 [INFO] scraper: [Scraper] Attempt 3: https://jamiahamdard.edu/admission
+2026-04-20 13:51:08,069 [WARNING] scraper: [Scraper] Attempt 3 failed: HTTPSConnectionPool(host='jamiahamdard.edu', port=443): Max retries exceeded with url: /admission (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1000)')))
+2026-04-20 13:51:08,069 [ERROR] scraper: [Scraper] All 3 attempts failed for https://jamiahamdard.edu/admission
+2026-04-20 13:51:08,070 [INFO] scraper: [Scraper] Attempt 1: https://jamiahamdard.edu/admission-2024
+2026-04-20 13:51:08,403 [WARNING] scraper: [Scraper] Attempt 1 failed: HTTPSConnectionPool(host='jamiahamdard.edu', port=443): Max retries exceeded with url: /admission-2024 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1000)')))
+2026-04-20 13:51:10,404 [INFO] scraper: [Scraper] Attempt 2: https://jamiahamdard.edu/admission-2024
+2026-04-20 13:51:10,734 [WARNING] scraper: [Scraper] Attempt 2 failed: HTTPSConnectionPool(host='jamiahamdard.edu', port=443): Max retries exceeded with url: /admission-2024 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1000)')))
+2026-04-20 13:51:14,735 [INFO] scraper: [Scraper] Attempt 3: https://jamiahamdard.edu/admission-2024
+2026-04-20 13:51:15,076 [WARNING] scraper: [Scraper] Attempt 3 failed: HTTPSConnectionPool(host='jamiahamdard.edu', port=443): Max retries exceeded with url: /admission-2024 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1000)')))
+2026-04-20 13:51:15,077 [ERROR] scraper: [Scraper] All 3 attempts failed for https://jamiahamdard.edu/admission-2024
+2026-04-20 13:51:15,078 [INFO] intent_handler: [Handler] query='admissions' → intent=admission type=dynamic conf=0.99
+2026-04-20 13:51:15,078 [INFO] app: [Chat] intent=admission type=dynamic conf=0.99 time=21781.85ms
+2026-04-20 13:51:15,082 [INFO] werkzeug: 127.0.0.1 - - [20/Apr/2026 13:51:15] "POST /api/chat HTTP/1.1" 200 -
+2026-04-20 15:29:59,494 [INFO] werkzeug: 127.0.0.1 - - [20/Apr/2026 15:29:59] "[36mGET / HTTP/1.1[0m" 304 -
+2026-04-20 15:30:02,321 [INFO] werkzeug: 127.0.0.1 - - [20/Apr/2026 15:30:02] "[36mGET / HTTP/1.1[0m" 304 -
+2026-04-20 15:30:05,898 [INFO] app: [Chat] Incoming: 'hii'
+2026-04-20 15:30:06,356 [INFO] intent_handler: [NLP Fallback] tag=greeting, score=1, conf=0.15
+2026-04-20 15:30:06,373 [INFO] llm_handler: [LLM] Trying FREE LLM...
+2026-04-20 15:30:08,306 [ERROR] llm_handler: [LLM ERROR] 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-04-20 15:30:08,309 [WARNING] llm_handler: [LLM] Falling back to rule-based NLP
+2026-04-20 15:30:08,312 [INFO] intent_handler: [Handler] query='hii' → intent=llm_handled type=llm conf=0.00
+2026-04-20 15:30:08,313 [INFO] app: [Chat] intent=llm_handled type=llm conf=0.0 time=2498.1ms
+2026-04-20 15:30:08,322 [INFO] werkzeug: 127.0.0.1 - - [20/Apr/2026 15:30:08] "POST /api/chat HTTP/1.1" 200 -
+2026-04-20 15:30:19,834 [INFO] app: [Chat] Incoming: 'How to apply for admission?'
+2026-04-20 15:30:19,841 [INFO] scraper: [Scraper] Attempt 1: https://jamiahamdard.edu/admissions
+2026-04-20 15:30:20,247 [WARNING] scraper: [Scraper] Attempt 1 failed: HTTPSConnectionPool(host='jamiahamdard.edu', port=443): Max retries exceeded with url: /admissions (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1000)')))
+2026-04-20 15:30:22,247 [INFO] scraper: [Scraper] Attempt 2: https://jamiahamdard.edu/admissions
+2026-04-20 15:30:22,591 [WARNING] scraper: [Scraper] Attempt 2 failed: HTTPSConnectionPool(host='jamiahamdard.edu', port=443): Max retries exceeded with url: /admissions (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1000)')))
+2026-04-20 15:30:26,592 [INFO] scraper: [Scraper] Attempt 3: https://jamiahamdard.edu/admissions
+2026-04-20 15:30:26,976 [WARNING] scraper: [Scraper] Attempt 3 failed: HTTPSConnectionPool(host='jamiahamdard.edu', port=443): Max retries exceeded with url: /admissions (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1000)')))
+2026-04-20 15:30:26,976 [ERROR] scraper: [Scraper] All 3 attempts failed for https://jamiahamdard.edu/admissions
+2026-04-20 15:30:26,977 [INFO] scraper: [Scraper] Attempt 1: https://jamiahamdard.edu/admission
+2026-04-20 15:30:27,494 [WARNING] scraper: [Scraper] Attempt 1 failed: HTTPSConnectionPool(host='jamiahamdard.edu', port=443): Max retries exceeded with url: /admission (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1000)')))
+2026-04-20 15:30:29,494 [INFO] scraper: [Scraper] Attempt 2: https://jamiahamdard.edu/admission
+2026-04-20 15:30:29,968 [WARNING] scraper: [Scraper] Attempt 2 failed: HTTPSConnectionPool(host='jamiahamdard.edu', port=443): Max retries exceeded with url: /admission (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1000)')))
+2026-04-20 15:30:33,969 [INFO] scraper: [Scraper] Attempt 3: https://jamiahamdard.edu/admission
+2026-04-20 15:30:34,333 [WARNING] scraper: [Scraper] Attempt 3 failed: HTTPSConnectionPool(host='jamiahamdard.edu', port=443): Max retries exceeded with url: /admission (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1000)')))
+2026-04-20 15:30:34,335 [ERROR] scraper: [Scraper] All 3 attempts failed for https://jamiahamdard.edu/admission
+2026-04-20 15:30:34,335 [INFO] scraper: [Scraper] Attempt 1: https://jamiahamdard.edu/admission-2024
+2026-04-20 15:30:34,661 [WARNING] scraper: [Scraper] Attempt 1 failed: HTTPSConnectionPool(host='jamiahamdard.edu', port=443): Max retries exceeded with url: /admission-2024 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1000)')))
+2026-04-20 15:30:36,662 [INFO] scraper: [Scraper] Attempt 2: https://jamiahamdard.edu/admission-2024
+2026-04-20 15:30:37,003 [WARNING] scraper: [Scraper] Attempt 2 failed: HTTPSConnectionPool(host='jamiahamdard.edu', port=443): Max retries exceeded with url: /admission-2024 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1000)')))
+2026-04-20 15:30:41,005 [INFO] scraper: [Scraper] Attempt 3: https://jamiahamdard.edu/admission-2024
+2026-04-20 15:30:41,348 [WARNING] scraper: [Scraper] Attempt 3 failed: HTTPSConnectionPool(host='jamiahamdard.edu', port=443): Max retries exceeded with url: /admission-2024 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1000)')))
+2026-04-20 15:30:41,348 [ERROR] scraper: [Scraper] All 3 attempts failed for https://jamiahamdard.edu/admission-2024
+2026-04-20 15:30:41,351 [INFO] intent_handler: [Handler] query='How to apply for admission?' → intent=admission type=dynamic conf=0.99
+2026-04-20 15:30:41,351 [INFO] app: [Chat] intent=admission type=dynamic conf=0.99 time=21516.7ms
+2026-04-20 15:30:41,351 [INFO] werkzeug: 127.0.0.1 - - [20/Apr/2026 15:30:41] "POST /api/chat HTTP/1.1" 200 -
+2026-04-20 15:30:55,881 [INFO] app: [Chat] Incoming: 'btech'
+2026-04-20 15:30:55,882 [INFO] llm_handler: [LLM] Trying FREE LLM...
+2026-04-20 15:30:56,305 [ERROR] llm_handler: [LLM ERROR] 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-04-20 15:30:56,307 [WARNING] llm_handler: [LLM] Falling back to rule-based NLP
+2026-04-20 15:30:56,308 [INFO] intent_handler: [Handler] query='btech' → intent=llm_handled type=llm conf=0.00
+2026-04-20 15:30:56,308 [INFO] app: [Chat] intent=llm_handled type=llm conf=0.0 time=427.43ms
+2026-04-20 15:30:56,309 [INFO] werkzeug: 127.0.0.1 - - [20/Apr/2026 15:30:56] "POST /api/chat HTTP/1.1" 200 -
+2026-04-20 15:31:02,063 [INFO] app: [Chat] Incoming: 'btech'
+2026-04-20 15:31:02,063 [INFO] llm_handler: [LLM] Trying FREE LLM...
+2026-04-20 15:31:02,465 [ERROR] llm_handler: [LLM ERROR] 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-04-20 15:31:02,466 [WARNING] llm_handler: [LLM] Falling back to rule-based NLP
+2026-04-20 15:31:02,466 [INFO] intent_handler: [Handler] query='btech' → intent=llm_handled type=llm conf=0.00
+2026-04-20 15:31:02,466 [INFO] app: [Chat] intent=llm_handled type=llm conf=0.0 time=403.77ms
+2026-04-20 15:31:02,467 [INFO] werkzeug: 127.0.0.1 - - [20/Apr/2026 15:31:02] "POST /api/chat HTTP/1.1" 200 -
+2026-04-20 15:31:13,640 [INFO] app: [Chat] Incoming: 'mbbs'
+2026-04-20 15:31:13,642 [INFO] intent_handler: [Handler] query='mbbs' → intent=medicine type=static conf=0.73
+2026-04-20 15:31:13,643 [INFO] app: [Chat] intent=medicine type=static conf=0.7346 time=3.45ms
+2026-04-20 15:31:13,644 [INFO] werkzeug: 127.0.0.1 - - [20/Apr/2026 15:31:13] "POST /api/chat HTTP/1.1" 200 -
+2026-04-20 15:31:33,514 [INFO] app: [Chat] Incoming: 'What courses are offered?'
+2026-04-20 15:31:33,516 [INFO] intent_handler: [Handler] query='What courses are offered?' → intent=courses type=static conf=0.99
+2026-04-20 15:31:33,516 [INFO] app: [Chat] intent=courses type=static conf=0.99 time=3.21ms
+2026-04-20 15:31:33,518 [INFO] werkzeug: 127.0.0.1 - - [20/Apr/2026 15:31:33] "POST /api/chat HTTP/1.1" 200 -
+2026-04-20 15:32:42,719 [INFO] app: [Chat] Incoming: 'is admission open in jamia hamdard'
+2026-04-20 15:32:42,719 [INFO] intent_handler: [Handler] query='is admission open in jamia hamdard' → intent=admission type=dynamic conf=0.64
+2026-04-20 15:32:42,720 [INFO] app: [Chat] intent=admission type=dynamic conf=0.6412 time=2.14ms
+2026-04-20 15:32:42,721 [INFO] werkzeug: 127.0.0.1 - - [20/Apr/2026 15:32:42] "POST /api/chat HTTP/1.1" 200 -
+2026-04-20 15:45:29,994 [INFO] app: ============================================================
+2026-04-20 15:45:29,995 [INFO] app:   Jamia Hamdard Chatbot — Flask Server Starting
+2026-04-20 15:45:29,995 [INFO] app: ============================================================
+2026-04-20 15:45:29,998 [INFO] intent_handler: [IntentHandler] Model loaded. Tags: 28, Vocab: 326
+2026-04-20 15:45:29,999 [INFO] intent_handler: [IntentHandler] Initialized.
+2026-04-20 15:45:29,999 [INFO] app: ✅ Model loaded. 28 intents, 326 vocab words.
+2026-04-20 15:45:29,999 [INFO] app: LLM Mode: openrouter_llm
+2026-04-20 15:45:30,000 [INFO] app: Starting Flask server on http://0.0.0.0:5000
+2026-04-20 15:45:30,094 [INFO] werkzeug: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.103:5000
+2026-04-20 15:45:30,094 [INFO] werkzeug: [33mPress CTRL+C to quit[0m
+2026-04-20 15:45:34,593 [INFO] werkzeug: 127.0.0.1 - - [20/Apr/2026 15:45:34] "[36mGET / HTTP/1.1[0m" 304 -
+2026-04-20 15:45:39,318 [INFO] app: [Chat] Incoming: 'hii'
+2026-04-20 15:45:39,318 [INFO] app: [Chat] intent=greeting type=static conf=1.0 time=1.01ms
+2026-04-20 15:45:39,320 [INFO] werkzeug: 127.0.0.1 - - [20/Apr/2026 15:45:39] "POST /api/chat HTTP/1.1" 200 -
+2026-04-20 15:45:51,560 [INFO] app: [Chat] Incoming: 'campus life'
+2026-04-20 15:45:51,561 [INFO] app: [Chat] intent=campus_life type=static conf=0.9868876864181041 time=1.12ms
+2026-04-20 15:45:51,563 [INFO] werkzeug: 127.0.0.1 - - [20/Apr/2026 15:45:51] "POST /api/chat HTTP/1.1" 200 -
+2026-04-20 15:46:02,646 [INFO] app: [Chat] Incoming: 'is admission open in jamia hamdard'
+2026-04-20 15:46:02,648 [INFO] llm_handler: [LLM] Trying FREE LLM...
+2026-04-20 15:46:03,436 [ERROR] llm_handler: [LLM ERROR] 400 Client Error: Bad Request for url: https://openrouter.ai/api/v1/chat/completions
+2026-04-20 15:46:03,437 [WARNING] llm_handler: [LLM] Falling back to rule-based NLP
+2026-04-20 15:46:03,437 [INFO] app: [Chat] intent=llm_assist type=llm conf=0.641204004753394 time=790.59ms
+2026-04-20 15:46:03,438 [INFO] werkzeug: 127.0.0.1 - - [20/Apr/2026 15:46:03] "POST /api/chat HTTP/1.1" 200 -
+2026-04-20 15:46:39,429 [INFO] app: [Chat] Incoming: 'courrses'
+2026-04-20 15:46:39,431 [INFO] llm_handler: [LLM] Trying FREE LLM...
+2026-04-20 15:46:39,803 [ERROR] llm_handler: [LLM ERROR] 400 Client Error: Bad Request for url: https://openrouter.ai/api/v1/chat/completions
+2026-04-20 15:46:39,804 [WARNING] llm_handler: [LLM] Falling back to rule-based NLP
+2026-04-20 15:46:39,805 [INFO] app: [Chat] intent=llm type=llm conf=0.08552346978837348 time=376.06ms
+2026-04-20 15:46:39,805 [INFO] werkzeug: 127.0.0.1 - - [20/Apr/2026 15:46:39] "POST /api/chat HTTP/1.1" 200 -
+2026-04-20 15:46:46,206 [INFO] app: [Chat] Incoming: 'course'
+2026-04-20 15:46:46,207 [INFO] llm_handler: [LLM] Trying FREE LLM...
+2026-04-20 15:46:46,539 [ERROR] llm_handler: [LLM ERROR] 400 Client Error: Bad Request for url: https://openrouter.ai/api/v1/chat/completions
+2026-04-20 15:46:46,540 [WARNING] llm_handler: [LLM] Falling back to rule-based NLP
+2026-04-20 15:46:46,540 [INFO] app: [Chat] intent=llm_assist type=llm conf=0.41416465085428017 time=334.04ms
+2026-04-20 15:46:46,541 [INFO] werkzeug: 127.0.0.1 - - [20/Apr/2026 15:46:46] "POST /api/chat HTTP/1.1" 200 -
+2026-04-20 15:46:51,278 [INFO] app: [Chat] Incoming: 'What courses are offered?'
+2026-04-20 15:46:51,279 [INFO] app: [Chat] intent=courses type=static conf=0.99 time=1.5ms
+2026-04-20 15:46:51,279 [INFO] werkzeug: 127.0.0.1 - - [20/Apr/2026 15:46:51] "POST /api/chat HTTP/1.1" 200 -
+2026-04-20 15:50:07,670 [INFO] app: ============================================================
+2026-04-20 15:50:07,671 [INFO] app:   Jamia Hamdard Chatbot — Flask Server Starting
+2026-04-20 15:50:07,671 [INFO] app: ============================================================
+2026-04-20 15:50:07,675 [INFO] intent_handler: [IntentHandler] Model loaded. Tags: 28, Vocab: 326
+2026-04-20 15:50:07,676 [INFO] intent_handler: [IntentHandler] Initialized.
+2026-04-20 15:50:07,676 [INFO] app: ✅ Model loaded. 28 intents, 326 vocab words.
+2026-04-20 15:50:07,676 [INFO] app: LLM Mode: openrouter_llm
+2026-04-20 15:50:07,676 [INFO] app: Starting Flask server on http://0.0.0.0:5000
+2026-04-20 15:50:07,830 [INFO] werkzeug: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.103:5000
+2026-04-20 15:50:07,830 [INFO] werkzeug: [33mPress CTRL+C to quit[0m
+2026-04-20 15:50:14,038 [INFO] werkzeug: 127.0.0.1 - - [20/Apr/2026 15:50:14] "[36mGET / HTTP/1.1[0m" 304 -
+2026-04-20 15:50:21,195 [INFO] werkzeug: 127.0.0.1 - - [20/Apr/2026 15:50:21] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-04-20 15:50:28,105 [INFO] app: [Chat] Incoming: 'Tell me about hostel facilities'
+2026-04-20 15:50:28,112 [INFO] app: [Chat] intent=hostel type=static conf=0.99 time=8.43ms
+2026-04-20 15:50:28,114 [INFO] werkzeug: 127.0.0.1 - - [20/Apr/2026 15:50:28] "POST /api/chat HTTP/1.1" 200 -
+2026-04-20 15:50:33,717 [INFO] app: [Chat] Incoming: 'courses'
+2026-04-20 15:50:33,718 [INFO] app: [Chat] intent=courses type=static conf=0.99 time=1.36ms
+2026-04-20 15:50:33,718 [INFO] werkzeug: 127.0.0.1 - - [20/Apr/2026 15:50:33] "POST /api/chat HTTP/1.1" 200 -
+2026-04-20 15:50:50,303 [INFO] app: [Chat] Incoming: 'is jamia hamdard good'
+2026-04-20 15:50:50,304 [INFO] llm_handler: [LLM] Trying FREE LLM...
+2026-04-20 15:51:07,724 [INFO] app: [Chat] intent=llm_assist type=llm conf=0.759778170003894 time=17421.04ms
+2026-04-20 15:51:07,725 [INFO] werkzeug: 127.0.0.1 - - [20/Apr/2026 15:51:07] "POST /api/chat HTTP/1.1" 200 -
+2026-04-20 17:01:58,882 [INFO] app: [Chat] Incoming: 'who are you?'
+2026-04-20 17:01:58,951 [INFO] app: [Chat] intent=bot_identity type=static conf=0.99 time=88.62ms
+2026-04-20 17:01:58,973 [INFO] werkzeug: 127.0.0.1 - - [20/Apr/2026 17:01:58] "POST /api/chat HTTP/1.1" 200 -
+2026-04-20 17:02:52,811 [INFO] app: [Chat] Incoming: 'kais eho'
+2026-04-20 17:02:52,834 [INFO] llm_handler: [LLM] Trying FREE LLM...
+2026-04-20 17:03:01,294 [INFO] app: [Chat] intent=llm type=llm conf=0.08552346978837348 time=8490.33ms
+2026-04-20 17:03:01,297 [INFO] werkzeug: 127.0.0.1 - - [20/Apr/2026 17:03:01] "POST /api/chat HTTP/1.1" 200 -
+2026-04-26 16:48:49,365 [INFO] app: ============================================================
+2026-04-26 16:48:49,369 [INFO] app:   Jamia Hamdard Chatbot — Flask Server Starting
+2026-04-26 16:48:49,371 [INFO] app: ============================================================
+2026-04-26 16:48:49,617 [INFO] intent_handler: [IntentHandler] Model loaded. Tags: 28, Vocab: 326
+2026-04-26 16:48:49,618 [INFO] intent_handler: [IntentHandler] Initialized.
+2026-04-26 16:48:49,620 [INFO] app: ✅ Model loaded. 28 intents, 326 vocab words.
+2026-04-26 16:48:49,620 [INFO] app: LLM Mode: openrouter_llm
+2026-04-26 16:48:49,621 [INFO] app: Starting Flask server on http://0.0.0.0:5000
+2026-04-26 16:48:49,820 [INFO] werkzeug: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.102:5000
+2026-04-26 16:48:49,821 [INFO] werkzeug: [33mPress CTRL+C to quit[0m
+2026-04-26 16:49:27,705 [INFO] werkzeug: 127.0.0.1 - - [26/Apr/2026 16:49:27] "GET / HTTP/1.1" 200 -
+2026-04-26 16:49:29,072 [INFO] werkzeug: 127.0.0.1 - - [26/Apr/2026 16:49:29] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-04-26 16:49:37,646 [INFO] app: [Chat] Incoming: 'hii'
+2026-04-26 16:49:37,646 [INFO] app: [Chat] intent=greeting type=static conf=1.0 time=0.96ms
+2026-04-26 16:49:37,648 [INFO] werkzeug: 127.0.0.1 - - [26/Apr/2026 16:49:37] "POST /api/chat HTTP/1.1" 200 -
+2026-04-26 16:49:46,841 [INFO] app: [Chat] Incoming: 'jamia admission hassasa'
+2026-04-26 16:49:46,882 [ERROR] app: [Chat Error] 'IntentHandler' object has no attribute '_handle_dynamic'
+Traceback (most recent call last):
+  File "C:\Users\shahr\Downloads\files (2)\app.py", line 114, in chat
+    result = handler.handle(user_message)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shahr\Downloads\files (2)\intent_handler.py", line 237, in handle
+    data = self._handle_dynamic(intent)
+           ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'IntentHandler' object has no attribute '_handle_dynamic'
+
+2026-04-26 16:49:46,883 [INFO] werkzeug: 127.0.0.1 - - [26/Apr/2026 16:49:46] "[35m[1mPOST /api/chat HTTP/1.1[0m" 500 -
+2026-04-26 16:50:26,918 [INFO] app: [Chat] Incoming: 'hello'
+2026-04-26 16:50:26,918 [INFO] app: [Chat] intent=greeting type=static conf=1.0 time=0.0ms
+2026-04-26 16:50:26,918 [INFO] werkzeug: 127.0.0.1 - - [26/Apr/2026 16:50:26] "POST /api/chat HTTP/1.1" 200 -
+2026-04-26 16:50:36,295 [INFO] app: [Chat] Incoming: 'admission'
+2026-04-26 16:50:36,298 [ERROR] app: [Chat Error] 'IntentHandler' object has no attribute '_handle_dynamic'
+Traceback (most recent call last):
+  File "C:\Users\shahr\Downloads\files (2)\app.py", line 114, in chat
+    result = handler.handle(user_message)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shahr\Downloads\files (2)\intent_handler.py", line 237, in handle
+    data = self._handle_dynamic(intent)
+           ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'IntentHandler' object has no attribute '_handle_dynamic'
+
+2026-04-26 16:50:36,299 [INFO] werkzeug: 127.0.0.1 - - [26/Apr/2026 16:50:36] "[35m[1mPOST /api/chat HTTP/1.1[0m" 500 -
+2026-04-26 16:50:39,404 [INFO] app: [Chat] Incoming: 'How to apply for admission?'
+2026-04-26 16:50:39,407 [ERROR] app: [Chat Error] 'IntentHandler' object has no attribute '_handle_dynamic'
+Traceback (most recent call last):
+  File "C:\Users\shahr\Downloads\files (2)\app.py", line 114, in chat
+    result = handler.handle(user_message)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shahr\Downloads\files (2)\intent_handler.py", line 237, in handle
+    data = self._handle_dynamic(intent)
+           ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'IntentHandler' object has no attribute '_handle_dynamic'
+
+2026-04-26 16:50:39,408 [INFO] werkzeug: 127.0.0.1 - - [26/Apr/2026 16:50:39] "[35m[1mPOST /api/chat HTTP/1.1[0m" 500 -
+2026-04-26 16:51:03,040 [INFO] app: [Chat] Incoming: 'Tell me about hostel facilities'
+2026-04-26 16:51:03,041 [INFO] app: [Chat] intent=hostel type=static conf=0.99 time=1.0ms
+2026-04-26 16:51:03,041 [INFO] werkzeug: 127.0.0.1 - - [26/Apr/2026 16:51:03] "POST /api/chat HTTP/1.1" 200 -
+2026-04-26 16:51:13,635 [INFO] app: [Chat] Incoming: 'campus'
+2026-04-26 16:51:13,635 [INFO] llm_handler: [LLM] Trying FREE LLM...
+2026-04-26 16:51:31,862 [INFO] app: [Chat] intent=llm_assist type=llm conf=0.7230317428697619 time=18226.91ms
+2026-04-26 16:51:31,863 [INFO] werkzeug: 127.0.0.1 - - [26/Apr/2026 16:51:31] "POST /api/chat HTTP/1.1" 200 -
+2026-04-26 16:51:41,880 [INFO] werkzeug: 127.0.0.1 - - [26/Apr/2026 16:51:41] "[36mGET / HTTP/1.1[0m" 304 -
+2026-04-26 16:51:46,363 [INFO] app: [Chat] Incoming: 'hello'
+2026-04-26 16:51:46,364 [INFO] app: [Chat] intent=greeting type=static conf=1.0 time=1.32ms
+2026-04-26 16:51:46,364 [INFO] werkzeug: 127.0.0.1 - - [26/Apr/2026 16:51:46] "POST /api/chat HTTP/1.1" 200 -
+2026-04-26 17:02:38,091 [INFO] werkzeug: 127.0.0.1 - - [26/Apr/2026 17:02:38] "GET / HTTP/1.1" 200 -
+2026-04-26 17:03:08,897 [INFO] werkzeug: 127.0.0.1 - - [26/Apr/2026 17:03:08] "GET / HTTP/1.1" 200 -
+2026-04-26 17:03:19,896 [INFO] app: [Chat] Incoming: 'hello'
+2026-04-26 17:03:19,901 [INFO] app: [Chat] intent=greeting type=static conf=1.0 time=29.24ms
+2026-04-26 17:03:19,917 [INFO] werkzeug: 127.0.0.1 - - [26/Apr/2026 17:03:19] "POST /api/chat HTTP/1.1" 200 -
+2026-04-26 17:05:48,237 [INFO] werkzeug: 127.0.0.1 - - [26/Apr/2026 17:05:48] "[36mGET / HTTP/1.1[0m" 304 -
+2026-04-26 17:05:52,501 [INFO] app: [Chat] Incoming: 'What are the courses offered?'
+2026-04-26 17:05:52,578 [INFO] app: [Chat] intent=courses type=static conf=0.99 time=77.6ms
+2026-04-26 17:05:52,580 [INFO] werkzeug: 127.0.0.1 - - [26/Apr/2026 17:05:52] "POST /api/chat HTTP/1.1" 200 -
+2026-04-26 17:06:04,006 [INFO] app: [Chat] Incoming: 'yes'
+2026-04-26 17:06:04,009 [INFO] llm_handler: [LLM] Trying FREE LLM...
+2026-04-26 17:06:27,925 [INFO] app: [Chat] intent=llm type=llm conf=0.08552346978837348 time=23919.35ms
+2026-04-26 17:06:27,928 [INFO] werkzeug: 127.0.0.1 - - [26/Apr/2026 17:06:27] "POST /api/chat HTTP/1.1" 200 -
+2026-04-26 17:06:47,770 [INFO] app: [Chat] Incoming: 'tell me about engineering branch'
+2026-04-26 17:06:47,771 [INFO] llm_handler: [LLM] Trying FREE LLM...
+2026-04-26 17:07:06,921 [INFO] app: [Chat] intent=llm_assist type=llm conf=0.6493340555788546 time=19151.32ms
+2026-04-26 17:07:06,923 [INFO] werkzeug: 127.0.0.1 - - [26/Apr/2026 17:07:06] "POST /api/chat HTTP/1.1" 200 -
+2026-04-26 17:07:13,184 [INFO] werkzeug: 127.0.0.1 - - [26/Apr/2026 17:07:13] "[36mGET / HTTP/1.1[0m" 304 -
+2026-04-26 17:07:19,880 [INFO] app: [Chat] Incoming: 'What courses are offered?'
+2026-04-26 17:07:19,880 [INFO] app: [Chat] intent=courses type=static conf=0.99 time=1.04ms
+2026-04-26 17:07:19,881 [INFO] werkzeug: 127.0.0.1 - - [26/Apr/2026 17:07:19] "POST /api/chat HTTP/1.1" 200 -
+2026-04-26 17:11:02,504 [INFO] werkzeug: 127.0.0.1 - - [26/Apr/2026 17:11:02] "[36mGET / HTTP/1.1[0m" 304 -
+2026-04-26 17:11:11,458 [INFO] app: [Chat] Incoming: 'campus'
+2026-04-26 17:11:11,460 [INFO] llm_handler: [LLM] Trying FREE LLM...
+2026-04-26 17:11:16,282 [INFO] werkzeug: 127.0.0.1 - - [26/Apr/2026 17:11:16] "[36mGET / HTTP/1.1[0m" 304 -
+2026-04-26 17:11:18,943 [INFO] app: [Chat] Incoming: 'What courses are offered?'
+2026-04-26 17:11:18,944 [INFO] app: [Chat] intent=courses type=static conf=0.99 time=0.61ms
+2026-04-26 17:11:18,945 [INFO] werkzeug: 127.0.0.1 - - [26/Apr/2026 17:11:18] "POST /api/chat HTTP/1.1" 200 -
+2026-04-26 17:11:29,005 [INFO] app: [Chat] intent=llm_assist type=llm conf=0.7230317428697619 time=17547.09ms
+2026-04-26 17:11:29,007 [INFO] werkzeug: 127.0.0.1 - - [26/Apr/2026 17:11:29] "POST /api/chat HTTP/1.1" 200 -
+2026-04-26 17:11:31,593 [INFO] app: [Chat] Incoming: 'What are the placement records?'
+2026-04-26 17:11:31,593 [INFO] llm_handler: [LLM] Trying FREE LLM...
+2026-04-26 17:11:51,183 [INFO] app: [Chat] intent=llm_assist type=llm conf=0.5751951162695194 time=19591.9ms
+2026-04-26 17:11:51,184 [INFO] werkzeug: 127.0.0.1 - - [26/Apr/2026 17:11:51] "POST /api/chat HTTP/1.1" 200 -
+2026-04-26 17:14:05,593 [INFO] app: [Chat] Incoming: 'Latest news and events'
+2026-04-26 17:14:05,631 [ERROR] app: [Chat Error] 'IntentHandler' object has no attribute '_handle_dynamic'
+Traceback (most recent call last):
+  File "C:\Users\shahr\Downloads\files (2)\app.py", line 114, in chat
+    result = handler.handle(user_message)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shahr\Downloads\files (2)\intent_handler.py", line 237, in handle
+    data = self._handle_dynamic(intent)
+           ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'IntentHandler' object has no attribute '_handle_dynamic'
+
+2026-04-26 17:14:05,633 [INFO] werkzeug: 127.0.0.1 - - [26/Apr/2026 17:14:05] "[35m[1mPOST /api/chat HTTP/1.1[0m" 500 -
+2026-04-26 17:14:10,492 [INFO] app: [Chat] Incoming: 'What courses are offered?'
+2026-04-26 17:14:10,493 [INFO] app: [Chat] intent=courses type=static conf=0.99 time=1.04ms
+2026-04-26 17:14:10,493 [INFO] werkzeug: 127.0.0.1 - - [26/Apr/2026 17:14:10] "POST /api/chat HTTP/1.1" 200 -
+2026-04-26 17:14:15,772 [INFO] app: [Chat] Incoming: 'What is the fee structure?'
+2026-04-26 17:14:15,774 [INFO] app: [Chat] intent=fees type=static conf=0.99 time=2.09ms
+2026-04-26 17:14:15,776 [INFO] werkzeug: 127.0.0.1 - - [26/Apr/2026 17:14:15] "POST /api/chat HTTP/1.1" 200 -
+2026-04-26 17:14:36,693 [INFO] app: [Chat] Incoming: 'How to apply for admission?'
+2026-04-26 17:14:36,697 [ERROR] app: [Chat Error] 'IntentHandler' object has no attribute '_handle_dynamic'
+Traceback (most recent call last):
+  File "C:\Users\shahr\Downloads\files (2)\app.py", line 114, in chat
+    result = handler.handle(user_message)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shahr\Downloads\files (2)\intent_handler.py", line 237, in handle
+    data = self._handle_dynamic(intent)
+           ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'IntentHandler' object has no attribute '_handle_dynamic'
+
+2026-04-26 17:14:36,698 [INFO] werkzeug: 127.0.0.1 - - [26/Apr/2026 17:14:36] "[35m[1mPOST /api/chat HTTP/1.1[0m" 500 -
+2026-04-26 17:14:39,996 [INFO] werkzeug: 127.0.0.1 - - [26/Apr/2026 17:14:39] "GET / HTTP/1.1" 200 -
+2026-04-26 17:14:47,582 [INFO] app: [Chat] Incoming: 'How to apply for admission?'
+2026-04-26 17:14:47,586 [ERROR] app: [Chat Error] 'IntentHandler' object has no attribute '_handle_dynamic'
+Traceback (most recent call last):
+  File "C:\Users\shahr\Downloads\files (2)\app.py", line 114, in chat
+    result = handler.handle(user_message)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shahr\Downloads\files (2)\intent_handler.py", line 237, in handle
+    data = self._handle_dynamic(intent)
+           ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'IntentHandler' object has no attribute '_handle_dynamic'
+
+2026-04-26 17:14:47,587 [INFO] werkzeug: 127.0.0.1 - - [26/Apr/2026 17:14:47] "[35m[1mPOST /api/chat HTTP/1.1[0m" 500 -
+2026-04-26 17:14:49,920 [INFO] app: [Chat] Incoming: 'What courses are offered?'
+2026-04-26 17:14:49,921 [INFO] app: [Chat] intent=courses type=static conf=0.99 time=0.58ms
+2026-04-26 17:14:49,921 [INFO] werkzeug: 127.0.0.1 - - [26/Apr/2026 17:14:49] "POST /api/chat HTTP/1.1" 200 -
+2026-04-26 17:14:52,398 [INFO] app: [Chat] Incoming: 'Latest news and events'
+2026-04-26 17:14:52,400 [ERROR] app: [Chat Error] 'IntentHandler' object has no attribute '_handle_dynamic'
+Traceback (most recent call last):
+  File "C:\Users\shahr\Downloads\files (2)\app.py", line 114, in chat
+    result = handler.handle(user_message)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shahr\Downloads\files (2)\intent_handler.py", line 237, in handle
+    data = self._handle_dynamic(intent)
+           ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'IntentHandler' object has no attribute '_handle_dynamic'
+
+2026-04-26 17:14:52,401 [INFO] werkzeug: 127.0.0.1 - - [26/Apr/2026 17:14:52] "[35m[1mPOST /api/chat HTTP/1.1[0m" 500 -
+2026-04-26 17:14:54,236 [INFO] werkzeug: 127.0.0.1 - - [26/Apr/2026 17:14:54] "[36mGET / HTTP/1.1[0m" 304 -
+2026-04-26 17:15:29,323 [INFO] app: [Chat] Incoming: 'location of jamia hamdard'
+2026-04-26 17:15:29,327 [INFO] app: [Chat] intent=contact type=static conf=0.9398964207348836 time=3.34ms
+2026-04-26 17:15:29,327 [INFO] werkzeug: 127.0.0.1 - - [26/Apr/2026 17:15:29] "POST /api/chat HTTP/1.1" 200 -
+2026-04-26 17:31:21,492 [INFO] werkzeug: 127.0.0.1 - - [26/Apr/2026 17:31:21] "[36mGET / HTTP/1.1[0m" 304 -
+2026-04-26 17:31:32,092 [INFO] app: [Chat] Incoming: 'location of jamia hamdard'
+2026-04-26 17:31:32,155 [INFO] app: [Chat] intent=contact type=static conf=0.9398964207348836 time=73.73ms
+2026-04-26 17:31:32,161 [INFO] werkzeug: 127.0.0.1 - - [26/Apr/2026 17:31:32] "POST /api/chat HTTP/1.1" 200 -
+2026-04-26 17:32:06,267 [INFO] app: ============================================================
+2026-04-26 17:32:06,267 [INFO] app:   Jamia Hamdard Chatbot — Flask Server Starting
+2026-04-26 17:32:06,267 [INFO] app: ============================================================
+2026-04-26 17:32:06,282 [INFO] intent_handler: [IntentHandler] Model loaded. Tags: 28, Vocab: 326
+2026-04-26 17:32:06,282 [INFO] intent_handler: [IntentHandler] Initialized.
+2026-04-26 17:32:06,282 [INFO] app: ✅ Model loaded. 28 intents, 326 vocab words.
+2026-04-26 17:32:06,283 [INFO] app: LLM Mode: openrouter_llm
+2026-04-26 17:32:06,283 [INFO] app: Starting Flask server on http://0.0.0.0:5000
+2026-04-26 17:32:06,327 [INFO] werkzeug: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.102:5000
+2026-04-26 17:32:06,327 [INFO] werkzeug: [33mPress CTRL+C to quit[0m
+2026-04-26 17:32:10,896 [INFO] werkzeug: 127.0.0.1 - - [26/Apr/2026 17:32:10] "[36mGET / HTTP/1.1[0m" 304 -
+2026-04-26 17:35:11,111 [INFO] werkzeug: 127.0.0.1 - - [26/Apr/2026 17:35:11] "GET / HTTP/1.1" 200 -
+2026-04-26 17:35:29,518 [INFO] werkzeug: 127.0.0.1 - - [26/Apr/2026 17:35:29] "GET / HTTP/1.1" 200 -
+2026-04-26 17:37:02,305 [INFO] werkzeug: 127.0.0.1 - - [26/Apr/2026 17:37:02] "GET / HTTP/1.1" 200 -
+2026-04-26 17:46:58,370 [INFO] werkzeug: 127.0.0.1 - - [26/Apr/2026 17:46:58] "GET / HTTP/1.1" 200 -
+2026-04-26 17:47:10,897 [INFO] werkzeug: 127.0.0.1 - - [26/Apr/2026 17:47:10] "GET / HTTP/1.1" 200 -
+2026-04-26 17:47:25,468 [INFO] app: ============================================================
+2026-04-26 17:47:25,468 [INFO] app:   Jamia Hamdard Chatbot — Flask Server Starting
+2026-04-26 17:47:25,468 [INFO] app: ============================================================
+2026-04-26 17:47:25,524 [INFO] intent_handler: [IntentHandler] Model loaded. Tags: 28, Vocab: 326
+2026-04-26 17:47:25,525 [INFO] intent_handler: [IntentHandler] Initialized.
+2026-04-26 17:47:25,525 [INFO] app: ✅ Model loaded. 28 intents, 326 vocab words.
+2026-04-26 17:47:25,525 [INFO] app: LLM Mode: openrouter_llm
+2026-04-26 17:47:25,525 [INFO] app: Starting Flask server on http://0.0.0.0:5000
+2026-04-26 17:47:25,557 [INFO] werkzeug: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.102:5000
+2026-04-26 17:47:25,557 [INFO] werkzeug: [33mPress CTRL+C to quit[0m
+2026-04-26 17:47:30,329 [INFO] werkzeug: 127.0.0.1 - - [26/Apr/2026 17:47:30] "[36mGET / HTTP/1.1[0m" 304 -
+2026-04-26 17:47:32,668 [INFO] app: [Chat] Incoming: 'What courses are offered?'
+2026-04-26 17:47:32,676 [INFO] app: [Chat] intent=courses type=static conf=0.99 time=8.48ms
+2026-04-26 17:47:32,677 [INFO] werkzeug: 127.0.0.1 - - [26/Apr/2026 17:47:32] "POST /api/chat HTTP/1.1" 200 -
+2026-04-26 17:47:39,475 [INFO] app: [Chat] Incoming: 'What courses are offered?'
+2026-04-26 17:47:39,475 [INFO] app: [Chat] intent=courses type=static conf=0.99 time=0.0ms
+2026-04-26 17:47:39,476 [INFO] werkzeug: 127.0.0.1 - - [26/Apr/2026 17:47:39] "POST /api/chat HTTP/1.1" 200 -
+2026-04-26 17:47:44,718 [INFO] werkzeug: 127.0.0.1 - - [26/Apr/2026 17:47:44] "[36mGET / HTTP/1.1[0m" 304 -
+2026-04-26 17:47:46,213 [INFO] app: [Chat] Incoming: 'What courses are offered?'
+2026-04-26 17:47:46,213 [INFO] app: [Chat] intent=courses type=static conf=0.99 time=1.0ms
+2026-04-26 17:47:46,214 [INFO] werkzeug: 127.0.0.1 - - [26/Apr/2026 17:47:46] "POST /api/chat HTTP/1.1" 200 -
+2026-04-26 17:48:20,089 [INFO] app: [Chat] Incoming: 'Latest news and events'
+2026-04-26 17:48:20,095 [ERROR] app: [Chat Error] 'IntentHandler' object has no attribute '_handle_dynamic'
+Traceback (most recent call last):
+  File "C:\Users\shahr\Downloads\files (2)\app.py", line 114, in chat
+    result = handler.handle(user_message)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shahr\Downloads\files (2)\intent_handler.py", line 237, in handle
+    data = self._handle_dynamic(intent)
+           ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'IntentHandler' object has no attribute '_handle_dynamic'
+
+2026-04-26 17:48:20,096 [INFO] werkzeug: 127.0.0.1 - - [26/Apr/2026 17:48:20] "[35m[1mPOST /api/chat HTTP/1.1[0m" 500 -
+2026-04-26 17:48:22,375 [INFO] werkzeug: 127.0.0.1 - - [26/Apr/2026 17:48:22] "[36mGET / HTTP/1.1[0m" 304 -
+2026-04-26 17:48:23,953 [INFO] app: [Chat] Incoming: 'What courses are offered?'
+2026-04-26 17:48:23,954 [INFO] app: [Chat] intent=courses type=static conf=0.99 time=1.04ms
+2026-04-26 17:48:23,954 [INFO] werkzeug: 127.0.0.1 - - [26/Apr/2026 17:48:23] "POST /api/chat HTTP/1.1" 200 -
+2026-04-26 17:48:26,030 [INFO] app: [Chat] Incoming: 'What is the fee structure?'
+2026-04-26 17:48:26,031 [INFO] app: [Chat] intent=fees type=static conf=0.99 time=1.03ms
+2026-04-26 17:48:26,031 [INFO] werkzeug: 127.0.0.1 - - [26/Apr/2026 17:48:26] "POST /api/chat HTTP/1.1" 200 -
+2026-04-26 17:48:29,115 [INFO] werkzeug: 127.0.0.1 - - [26/Apr/2026 17:48:29] "[36mGET / HTTP/1.1[0m" 304 -
+2026-04-26 17:48:30,761 [INFO] app: [Chat] Incoming: 'What is the fee structure?'
+2026-04-26 17:48:30,762 [INFO] app: [Chat] intent=fees type=static conf=0.99 time=1.1ms
+2026-04-26 17:48:30,763 [INFO] werkzeug: 127.0.0.1 - - [26/Apr/2026 17:48:30] "POST /api/chat HTTP/1.1" 200 -
+2026-04-26 17:48:33,691 [INFO] app: [Chat] Incoming: 'What is the fee structure?'
+2026-04-26 17:48:33,693 [INFO] app: [Chat] intent=fees type=static conf=0.99 time=1.48ms
+2026-04-26 17:48:33,694 [INFO] werkzeug: 127.0.0.1 - - [26/Apr/2026 17:48:33] "POST /api/chat HTTP/1.1" 200 -
+2026-04-26 17:48:35,874 [INFO] app: [Chat] Incoming: 'What is the fee structure?'
+2026-04-26 17:48:35,875 [INFO] app: [Chat] intent=fees type=static conf=0.99 time=1.01ms
+2026-04-26 17:48:35,875 [INFO] werkzeug: 127.0.0.1 - - [26/Apr/2026 17:48:35] "POST /api/chat HTTP/1.1" 200 -
+2026-04-26 17:48:39,240 [INFO] werkzeug: 127.0.0.1 - - [26/Apr/2026 17:48:39] "[36mGET / HTTP/1.1[0m" 304 -
+2026-04-26 17:48:41,122 [INFO] app: [Chat] Incoming: 'What is the fee structure?'
+2026-04-26 17:48:41,123 [INFO] app: [Chat] intent=fees type=static conf=0.99 time=0.99ms
+2026-04-26 17:48:41,123 [INFO] werkzeug: 127.0.0.1 - - [26/Apr/2026 17:48:41] "POST /api/chat HTTP/1.1" 200 -
+2026-04-26 17:48:52,731 [INFO] app: [Chat] Incoming: 'How to apply for admission?'
+2026-04-26 17:48:52,733 [ERROR] app: [Chat Error] 'IntentHandler' object has no attribute '_handle_dynamic'
+Traceback (most recent call last):
+  File "C:\Users\shahr\Downloads\files (2)\app.py", line 114, in chat
+    result = handler.handle(user_message)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shahr\Downloads\files (2)\intent_handler.py", line 237, in handle
+    data = self._handle_dynamic(intent)
+           ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'IntentHandler' object has no attribute '_handle_dynamic'
+
+2026-04-26 17:48:52,734 [INFO] werkzeug: 127.0.0.1 - - [26/Apr/2026 17:48:52] "[35m[1mPOST /api/chat HTTP/1.1[0m" 500 -
+2026-04-26 17:48:54,687 [INFO] werkzeug: 127.0.0.1 - - [26/Apr/2026 17:48:54] "[36mGET / HTTP/1.1[0m" 304 -
+2026-04-26 17:49:00,262 [INFO] app: [Chat] Incoming: 'What are the placement records?'
+2026-04-26 17:49:00,263 [INFO] llm_handler: [LLM] Trying FREE LLM...
+2026-04-26 17:49:02,257 [INFO] werkzeug: 127.0.0.1 - - [26/Apr/2026 17:49:02] "[36mGET / HTTP/1.1[0m" 304 -
+2026-04-26 17:49:03,737 [INFO] app: [Chat] Incoming: 'Latest news and events'
+2026-04-26 17:49:03,739 [ERROR] app: [Chat Error] 'IntentHandler' object has no attribute '_handle_dynamic'
+Traceback (most recent call last):
+  File "C:\Users\shahr\Downloads\files (2)\app.py", line 114, in chat
+    result = handler.handle(user_message)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shahr\Downloads\files (2)\intent_handler.py", line 237, in handle
+    data = self._handle_dynamic(intent)
+           ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'IntentHandler' object has no attribute '_handle_dynamic'
+
+2026-04-26 17:49:03,740 [INFO] werkzeug: 127.0.0.1 - - [26/Apr/2026 17:49:03] "[35m[1mPOST /api/chat HTTP/1.1[0m" 500 -
+2026-04-26 17:49:05,755 [INFO] werkzeug: 127.0.0.1 - - [26/Apr/2026 17:49:05] "[36mGET / HTTP/1.1[0m" 304 -
+2026-04-26 17:49:09,298 [INFO] app: [Chat] intent=llm_assist type=llm conf=0.5751951162695194 time=9036.33ms
+2026-04-26 17:49:09,299 [INFO] werkzeug: 127.0.0.1 - - [26/Apr/2026 17:49:09] "POST /api/chat HTTP/1.1" 200 -
+2026-04-26 17:49:11,621 [INFO] app: [Chat] Incoming: 'Latest news and events'
+2026-04-26 17:49:11,623 [ERROR] app: [Chat Error] 'IntentHandler' object has no attribute '_handle_dynamic'
+Traceback (most recent call last):
+  File "C:\Users\shahr\Downloads\files (2)\app.py", line 114, in chat
+    result = handler.handle(user_message)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shahr\Downloads\files (2)\intent_handler.py", line 237, in handle
+    data = self._handle_dynamic(intent)
+           ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'IntentHandler' object has no attribute '_handle_dynamic'
+
+2026-04-26 17:49:11,623 [INFO] werkzeug: 127.0.0.1 - - [26/Apr/2026 17:49:11] "[35m[1mPOST /api/chat HTTP/1.1[0m" 500 -
+2026-04-26 17:49:13,790 [INFO] werkzeug: 127.0.0.1 - - [26/Apr/2026 17:49:13] "[36mGET / HTTP/1.1[0m" 304 -
+2026-04-26 17:49:15,316 [INFO] app: [Chat] Incoming: 'Latest news and events'
+2026-04-26 17:49:15,318 [ERROR] app: [Chat Error] 'IntentHandler' object has no attribute '_handle_dynamic'
+Traceback (most recent call last):
+  File "C:\Users\shahr\Downloads\files (2)\app.py", line 114, in chat
+    result = handler.handle(user_message)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shahr\Downloads\files (2)\intent_handler.py", line 237, in handle
+    data = self._handle_dynamic(intent)
+           ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'IntentHandler' object has no attribute '_handle_dynamic'
+
+2026-04-26 17:49:15,319 [INFO] werkzeug: 127.0.0.1 - - [26/Apr/2026 17:49:15] "[35m[1mPOST /api/chat HTTP/1.1[0m" 500 -
+2026-04-26 17:49:22,368 [INFO] werkzeug: 127.0.0.1 - - [26/Apr/2026 17:49:22] "[36mGET / HTTP/1.1[0m" 304 -
+2026-04-26 17:49:25,870 [INFO] app: [Chat] Incoming: 'hii'
+2026-04-26 17:49:25,870 [INFO] app: [Chat] intent=greeting type=static conf=1.0 time=0.0ms
+2026-04-26 17:49:25,871 [INFO] werkzeug: 127.0.0.1 - - [26/Apr/2026 17:49:25] "POST /api/chat HTTP/1.1" 200 -
+2026-04-26 17:49:28,485 [INFO] werkzeug: 127.0.0.1 - - [26/Apr/2026 17:49:28] "[36mGET / HTTP/1.1[0m" 304 -
+2026-04-26 17:49:31,667 [INFO] app: [Chat] Incoming: 'hii'
+2026-04-26 17:49:31,667 [INFO] app: [Chat] intent=greeting type=static conf=1.0 time=0.0ms
+2026-04-26 17:49:31,668 [INFO] werkzeug: 127.0.0.1 - - [26/Apr/2026 17:49:31] "POST /api/chat HTTP/1.1" 200 -
+2026-04-26 17:49:38,540 [INFO] werkzeug: 127.0.0.1 - - [26/Apr/2026 17:49:38] "[36mGET / HTTP/1.1[0m" 304 -
+2026-04-26 17:49:57,294 [INFO] app: [Chat] Incoming: 'tell me about pharamacy'
+2026-04-26 17:49:57,295 [INFO] llm_handler: [LLM] Trying FREE LLM...
+2026-04-26 17:50:08,615 [INFO] app: [Chat] intent=llm_assist type=llm conf=0.6493340555788546 time=11321.48ms
+2026-04-26 17:50:08,616 [INFO] werkzeug: 127.0.0.1 - - [26/Apr/2026 17:50:08] "POST /api/chat HTTP/1.1" 200 -
+2026-04-26 17:51:17,411 [INFO] werkzeug: 127.0.0.1 - - [26/Apr/2026 17:51:17] "[36mGET / HTTP/1.1[0m" 304 -
+2026-04-26 17:52:01,872 [INFO] app: [Chat] Incoming: 'who are you'
+2026-04-26 17:52:01,874 [INFO] app: [Chat] intent=bot_identity type=static conf=0.99 time=1.32ms
+2026-04-26 17:52:01,874 [INFO] werkzeug: 127.0.0.1 - - [26/Apr/2026 17:52:01] "POST /api/chat HTTP/1.1" 200 -
+2026-04-26 17:54:46,885 [INFO] werkzeug: 127.0.0.1 - - [26/Apr/2026 17:54:46] "[36mGET / HTTP/1.1[0m" 304 -
+2026-04-26 17:54:49,693 [INFO] app: [Chat] Incoming: 'Latest admission notice'
+2026-04-26 17:54:49,696 [ERROR] app: [Chat Error] 'IntentHandler' object has no attribute '_handle_dynamic'
+Traceback (most recent call last):
+  File "C:\Users\shahr\Downloads\files (2)\app.py", line 114, in chat
+    result = handler.handle(user_message)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shahr\Downloads\files (2)\intent_handler.py", line 237, in handle
+    data = self._handle_dynamic(intent)
+           ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'IntentHandler' object has no attribute '_handle_dynamic'
+
+2026-04-26 17:54:49,698 [INFO] werkzeug: 127.0.0.1 - - [26/Apr/2026 17:54:49] "[35m[1mPOST /api/chat HTTP/1.1[0m" 500 -
+2026-04-26 17:54:52,322 [INFO] werkzeug: 127.0.0.1 - - [26/Apr/2026 17:54:52] "[36mGET / HTTP/1.1[0m" 304 -
+2026-04-26 17:54:56,220 [INFO] app: [Chat] Incoming: 'Latest admission notice'
+2026-04-26 17:54:56,221 [ERROR] app: [Chat Error] 'IntentHandler' object has no attribute '_handle_dynamic'
+Traceback (most recent call last):
+  File "C:\Users\shahr\Downloads\files (2)\app.py", line 114, in chat
+    result = handler.handle(user_message)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shahr\Downloads\files (2)\intent_handler.py", line 237, in handle
+    data = self._handle_dynamic(intent)
+           ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'IntentHandler' object has no attribute '_handle_dynamic'
+
+2026-04-26 17:54:56,222 [INFO] werkzeug: 127.0.0.1 - - [26/Apr/2026 17:54:56] "[35m[1mPOST /api/chat HTTP/1.1[0m" 500 -
+2026-04-26 17:55:01,194 [INFO] werkzeug: 127.0.0.1 - - [26/Apr/2026 17:55:01] "[36mGET / HTTP/1.1[0m" 304 -
+2026-04-26 17:55:02,794 [INFO] app: [Chat] Incoming: 'Latest news and events'
+2026-04-26 17:55:02,796 [ERROR] app: [Chat Error] 'IntentHandler' object has no attribute '_handle_dynamic'
+Traceback (most recent call last):
+  File "C:\Users\shahr\Downloads\files (2)\app.py", line 114, in chat
+    result = handler.handle(user_message)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shahr\Downloads\files (2)\intent_handler.py", line 237, in handle
+    data = self._handle_dynamic(intent)
+           ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'IntentHandler' object has no attribute '_handle_dynamic'
+
+2026-04-26 17:55:02,797 [INFO] werkzeug: 127.0.0.1 - - [26/Apr/2026 17:55:02] "[35m[1mPOST /api/chat HTTP/1.1[0m" 500 -
+2026-04-26 17:55:07,239 [INFO] app: [Chat] Incoming: 'campus'
+2026-04-26 17:55:07,241 [INFO] llm_handler: [LLM] Trying FREE LLM...
+2026-04-26 17:55:16,492 [INFO] app: [Chat] intent=llm_assist type=llm conf=0.7230317428697619 time=9252.8ms
+2026-04-26 17:55:16,493 [INFO] werkzeug: 127.0.0.1 - - [26/Apr/2026 17:55:16] "POST /api/chat HTTP/1.1" 200 -
+2026-04-26 17:58:17,472 [INFO] werkzeug: 127.0.0.1 - - [26/Apr/2026 17:58:17] "[36mGET / HTTP/1.1[0m" 304 -
+2026-04-26 17:58:19,825 [INFO] app: [Chat] Incoming: 'How to apply for admission?'
+2026-04-26 17:58:19,827 [ERROR] app: [Chat Error] 'IntentHandler' object has no attribute '_handle_dynamic'
+Traceback (most recent call last):
+  File "C:\Users\shahr\Downloads\files (2)\app.py", line 114, in chat
+    result = handler.handle(user_message)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shahr\Downloads\files (2)\intent_handler.py", line 237, in handle
+    data = self._handle_dynamic(intent)
+           ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'IntentHandler' object has no attribute '_handle_dynamic'
+
+2026-04-26 17:58:19,828 [INFO] werkzeug: 127.0.0.1 - - [26/Apr/2026 17:58:19] "[35m[1mPOST /api/chat HTTP/1.1[0m" 500 -
+2026-04-26 18:07:34,222 [INFO] werkzeug: 127.0.0.1 - - [26/Apr/2026 18:07:34] "[36mGET / HTTP/1.1[0m" 304 -
+2026-04-26 18:07:37,140 [INFO] app: [Chat] Incoming: 'Latest news and events'
+2026-04-26 18:07:37,740 [ERROR] app: [Chat Error] 'IntentHandler' object has no attribute '_handle_dynamic'
+Traceback (most recent call last):
+  File "C:\Users\shahr\Downloads\files (2)\app.py", line 114, in chat
+    result = handler.handle(user_message)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shahr\Downloads\files (2)\intent_handler.py", line 237, in handle
+    data = self._handle_dynamic(intent)
+           ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'IntentHandler' object has no attribute '_handle_dynamic'
+
+2026-04-26 18:07:37,780 [INFO] werkzeug: 127.0.0.1 - - [26/Apr/2026 18:07:37] "[35m[1mPOST /api/chat HTTP/1.1[0m" 500 -
+2026-04-26 18:07:40,427 [INFO] werkzeug: 127.0.0.1 - - [26/Apr/2026 18:07:40] "[36mGET / HTTP/1.1[0m" 304 -
+2026-04-26 18:07:41,702 [INFO] app: [Chat] Incoming: 'Latest news and events'
+2026-04-26 18:07:41,707 [ERROR] app: [Chat Error] 'IntentHandler' object has no attribute '_handle_dynamic'
+Traceback (most recent call last):
+  File "C:\Users\shahr\Downloads\files (2)\app.py", line 114, in chat
+    result = handler.handle(user_message)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shahr\Downloads\files (2)\intent_handler.py", line 237, in handle
+    data = self._handle_dynamic(intent)
+           ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'IntentHandler' object has no attribute '_handle_dynamic'
+
+2026-04-26 18:07:41,707 [INFO] werkzeug: 127.0.0.1 - - [26/Apr/2026 18:07:41] "[35m[1mPOST /api/chat HTTP/1.1[0m" 500 -
+2026-04-26 18:07:50,371 [INFO] app: [Chat] Incoming: 'Latest news and events'
+2026-04-26 18:07:50,374 [ERROR] app: [Chat Error] 'IntentHandler' object has no attribute '_handle_dynamic'
+Traceback (most recent call last):
+  File "C:\Users\shahr\Downloads\files (2)\app.py", line 114, in chat
+    result = handler.handle(user_message)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shahr\Downloads\files (2)\intent_handler.py", line 237, in handle
+    data = self._handle_dynamic(intent)
+           ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'IntentHandler' object has no attribute '_handle_dynamic'
+
+2026-04-26 18:07:50,376 [INFO] werkzeug: 127.0.0.1 - - [26/Apr/2026 18:07:50] "[35m[1mPOST /api/chat HTTP/1.1[0m" 500 -
+2026-04-26 18:07:52,800 [INFO] app: [Chat] Incoming: 'What courses are offered?'
+2026-04-26 18:07:52,805 [INFO] app: [Chat] intent=courses type=static conf=0.99 time=4.34ms
+2026-04-26 18:07:52,807 [INFO] werkzeug: 127.0.0.1 - - [26/Apr/2026 18:07:52] "POST /api/chat HTTP/1.1" 200 -
+2026-04-26 18:07:56,406 [INFO] app: [Chat] Incoming: 'Latest news and events'
+2026-04-26 18:07:56,409 [ERROR] app: [Chat Error] 'IntentHandler' object has no attribute '_handle_dynamic'
+Traceback (most recent call last):
+  File "C:\Users\shahr\Downloads\files (2)\app.py", line 114, in chat
+    result = handler.handle(user_message)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shahr\Downloads\files (2)\intent_handler.py", line 237, in handle
+    data = self._handle_dynamic(intent)
+           ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'IntentHandler' object has no attribute '_handle_dynamic'
+
+2026-04-26 18:07:56,410 [INFO] werkzeug: 127.0.0.1 - - [26/Apr/2026 18:07:56] "[35m[1mPOST /api/chat HTTP/1.1[0m" 500 -
+2026-04-26 18:10:03,541 [INFO] werkzeug: 127.0.0.1 - - [26/Apr/2026 18:10:03] "[36mGET / HTTP/1.1[0m" 304 -
+2026-04-26 18:10:13,813 [INFO] app: ============================================================
+2026-04-26 18:10:13,813 [INFO] app:   Jamia Hamdard Chatbot — Flask Server Starting
+2026-04-26 18:10:13,813 [INFO] app: ============================================================
+2026-04-26 18:10:13,866 [INFO] intent_handler: [IntentHandler] Model loaded. Tags: 28, Vocab: 326
+2026-04-26 18:10:13,866 [INFO] intent_handler: [IntentHandler] Initialized.
+2026-04-26 18:10:13,866 [INFO] app: ✅ Model loaded. 28 intents, 326 vocab words.
+2026-04-26 18:10:13,866 [INFO] app: LLM Mode: openrouter_llm
+2026-04-26 18:10:13,866 [INFO] app: Starting Flask server on http://0.0.0.0:5000
+2026-04-26 18:10:13,913 [INFO] werkzeug: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.102:5000
+2026-04-26 18:10:13,913 [INFO] werkzeug: [33mPress CTRL+C to quit[0m
+2026-04-26 18:10:16,371 [INFO] werkzeug: 127.0.0.1 - - [26/Apr/2026 18:10:16] "[36mGET / HTTP/1.1[0m" 304 -
+2026-04-26 18:10:17,746 [INFO] app: [Chat] Incoming: 'Latest news and events'
+2026-04-26 18:10:17,747 [INFO] scraper: [Scraper] Attempt 1/3: https://www.jamiahamdard.ac.in/news
+2026-04-26 18:10:17,982 [INFO] scraper: [Scraper] News page yielded nothing — trying homepage events section
+2026-04-26 18:10:17,982 [INFO] scraper: [Scraper] Attempt 1/3: https://www.jamiahamdard.ac.in/
+2026-04-26 18:10:18,173 [INFO] app: [Chat] intent=news type=dynamic conf=0.99 time=426.61ms
+2026-04-26 18:10:18,174 [INFO] werkzeug: 127.0.0.1 - - [26/Apr/2026 18:10:18] "POST /api/chat HTTP/1.1" 200 -
+2026-04-26 18:19:42,707 [INFO] app: [Chat] Incoming: 'is admission open ?'
+2026-04-26 18:19:42,774 [INFO] scraper: [Scraper] Attempt 1/3: https://www.jamiahamdard.ac.in/admissionnotice
+2026-04-26 18:19:43,154 [INFO] app: [Chat] intent=admission type=dynamic conf=0.9760531370211163 time=471.92ms
+2026-04-26 18:19:43,162 [INFO] werkzeug: 127.0.0.1 - - [26/Apr/2026 18:19:43] "POST /api/chat HTTP/1.1" 200 -
+2026-04-26 18:20:09,563 [INFO] werkzeug: 127.0.0.1 - - [26/Apr/2026 18:20:09] "[36mGET / HTTP/1.1[0m" 304 -
+2026-04-26 18:21:33,132 [INFO] app: [Chat] Incoming: 'Are admissions open?'
+2026-04-26 18:21:33,134 [INFO] app: [Chat] intent=admission type=dynamic conf=0.935349154108452 time=3.43ms
+2026-04-26 18:21:33,135 [INFO] werkzeug: 127.0.0.1 - - [26/Apr/2026 18:21:33] "POST /api/chat HTTP/1.1" 200 -
+2026-04-26 18:23:13,157 [INFO] werkzeug: 127.0.0.1 - - [26/Apr/2026 18:23:13] "[36mGET / HTTP/1.1[0m" 304 -
+2026-04-26 18:23:16,241 [INFO] app: [Chat] Incoming: 'hostel batao'
+2026-04-26 18:23:16,249 [INFO] app: [Chat] intent=hostel type=static conf=0.99 time=8.79ms
+2026-04-26 18:23:16,250 [INFO] werkzeug: 127.0.0.1 - - [26/Apr/2026 18:23:16] "POST /api/chat HTTP/1.1" 200 -
+2026-04-26 18:23:28,178 [INFO] werkzeug: 127.0.0.1 - - [26/Apr/2026 18:23:28] "[36mGET / HTTP/1.1[0m" 304 -
+2026-04-26 18:24:02,122 [INFO] app: [Chat] Incoming: 'apply admission'
+2026-04-26 18:24:02,125 [INFO] app: [Chat] intent=admission type=dynamic conf=0.99 time=3.23ms
+2026-04-26 18:24:02,126 [INFO] werkzeug: 127.0.0.1 - - [26/Apr/2026 18:24:02] "POST /api/chat HTTP/1.1" 200 -
+2026-04-26 18:24:10,453 [INFO] werkzeug: 127.0.0.1 - - [26/Apr/2026 18:24:10] "[36mGET / HTTP/1.1[0m" 304 -
+2026-04-26 18:24:16,682 [INFO] app: [Chat] Incoming: 'hotel ke baare me batao'
+2026-04-26 18:24:16,687 [INFO] llm_handler: [LLM] Trying FREE LLM...
+2026-04-26 18:24:19,818 [INFO] werkzeug: 127.0.0.1 - - [26/Apr/2026 18:24:19] "[36mGET / HTTP/1.1[0m" 304 -
+2026-04-26 18:24:26,027 [INFO] app: [Chat] Incoming: 'hostel ke baare me batao'
+2026-04-26 18:24:26,029 [INFO] app: [Chat] intent=hostel type=static conf=0.99 time=2.08ms
+2026-04-26 18:24:26,029 [INFO] werkzeug: 127.0.0.1 - - [26/Apr/2026 18:24:26] "POST /api/chat HTTP/1.1" 200 -
+2026-04-26 18:24:27,192 [INFO] app: [Chat] intent=llm type=llm conf=0.15101625268478222 time=10510.01ms
+2026-04-26 18:24:27,195 [INFO] werkzeug: 127.0.0.1 - - [26/Apr/2026 18:24:27] "POST /api/chat HTTP/1.1" 200 -
+2026-04-26 18:24:30,220 [INFO] werkzeug: 127.0.0.1 - - [26/Apr/2026 18:24:30] "[36mGET / HTTP/1.1[0m" 304 -
+2026-04-26 18:24:31,637 [INFO] app: [Chat] Incoming: 'Tell me about hostel facilities'
+2026-04-26 18:24:31,638 [INFO] app: [Chat] intent=hostel type=static conf=0.99 time=1.06ms
+2026-04-26 18:24:31,639 [INFO] werkzeug: 127.0.0.1 - - [26/Apr/2026 18:24:31] "POST /api/chat HTTP/1.1" 200 -
+2026-04-26 18:24:33,366 [INFO] werkzeug: 127.0.0.1 - - [26/Apr/2026 18:24:33] "[36mGET / HTTP/1.1[0m" 304 -
+2026-04-26 18:24:59,163 [INFO] app: [Chat] Incoming: 'enroll process'
+2026-04-26 18:24:59,164 [INFO] llm_handler: [LLM] Trying FREE LLM...
+2026-04-26 18:25:06,960 [INFO] werkzeug: 127.0.0.1 - - [26/Apr/2026 18:25:06] "[36mGET / HTTP/1.1[0m" 304 -
+2026-04-26 18:25:07,811 [INFO] app: [Chat] intent=llm_assist type=llm conf=0.626266919991484 time=8648.42ms
+2026-04-26 18:25:07,812 [INFO] werkzeug: 127.0.0.1 - - [26/Apr/2026 18:25:07] "POST /api/chat HTTP/1.1" 200 -
+2026-04-26 18:25:15,234 [INFO] app: [Chat] Incoming: 'fees last date'
+2026-04-26 18:25:15,234 [INFO] llm_handler: [LLM] Trying FREE LLM...
+2026-04-26 18:25:22,995 [INFO] app: [Chat] intent=llm_assist type=llm conf=0.516770364709716 time=7760.41ms
+2026-04-26 18:25:22,996 [INFO] werkzeug: 127.0.0.1 - - [26/Apr/2026 18:25:22] "POST /api/chat HTTP/1.1" 200 -
+2026-04-26 18:25:35,105 [INFO] werkzeug: 127.0.0.1 - - [26/Apr/2026 18:25:35] "[36mGET / HTTP/1.1[0m" 304 -
+2026-04-26 18:25:41,095 [INFO] app: [Chat] Incoming: 'hostel'
+2026-04-26 18:25:41,097 [INFO] app: [Chat] intent=hostel type=static conf=0.99 time=1.16ms
+2026-04-26 18:25:41,098 [INFO] werkzeug: 127.0.0.1 - - [26/Apr/2026 18:25:41] "POST /api/chat HTTP/1.1" 200 -
+2026-04-26 18:25:54,025 [INFO] werkzeug: 127.0.0.1 - - [26/Apr/2026 18:25:54] "[36mGET / HTTP/1.1[0m" 304 -
+2026-04-26 18:25:57,052 [INFO] app: [Chat] Incoming: 'hostel'
+2026-04-26 18:25:57,053 [INFO] app: [Chat] intent=hostel type=static conf=0.99 time=1.07ms
+2026-04-26 18:25:57,054 [INFO] werkzeug: 127.0.0.1 - - [26/Apr/2026 18:25:57] "POST /api/chat HTTP/1.1" 200 -
+2026-04-26 18:25:59,302 [INFO] app: [Chat] Incoming: 'hostel'
+2026-04-26 18:25:59,302 [INFO] app: [Chat] intent=hostel type=static conf=0.99 time=0.0ms
+2026-04-26 18:25:59,303 [INFO] werkzeug: 127.0.0.1 - - [26/Apr/2026 18:25:59] "POST /api/chat HTTP/1.1" 200 -
+2026-04-26 18:26:04,277 [INFO] werkzeug: 127.0.0.1 - - [26/Apr/2026 18:26:04] "[36mGET / HTTP/1.1[0m" 304 -
+2026-04-26 18:26:10,217 [INFO] app: [Chat] Incoming: 'hostel'
+2026-04-26 18:26:10,217 [INFO] app: [Chat] intent=hostel type=static conf=0.99 time=0.6ms
+2026-04-26 18:26:10,218 [INFO] werkzeug: 127.0.0.1 - - [26/Apr/2026 18:26:10] "POST /api/chat HTTP/1.1" 200 -
+2026-04-26 18:26:13,571 [INFO] werkzeug: 127.0.0.1 - - [26/Apr/2026 18:26:13] "[36mGET / HTTP/1.1[0m" 304 -
+2026-04-26 18:26:18,517 [INFO] app: [Chat] Incoming: 'hostel'
+2026-04-26 18:26:18,518 [INFO] app: [Chat] intent=hostel type=static conf=0.99 time=1.01ms
+2026-04-26 18:26:18,518 [INFO] werkzeug: 127.0.0.1 - - [26/Apr/2026 18:26:18] "POST /api/chat HTTP/1.1" 200 -
+2026-04-26 18:26:40,525 [INFO] werkzeug: 127.0.0.1 - - [26/Apr/2026 18:26:40] "[36mGET / HTTP/1.1[0m" 304 -
+2026-04-26 18:26:49,892 [INFO] app: [Chat] Incoming: 'hostel hmm'
+2026-04-26 18:26:49,892 [INFO] app: [Chat] intent=hostel type=static conf=0.99 time=2.16ms
+2026-04-26 18:26:49,893 [INFO] werkzeug: 127.0.0.1 - - [26/Apr/2026 18:26:49] "POST /api/chat HTTP/1.1" 200 -
+2026-04-26 18:26:58,583 [INFO] werkzeug: 127.0.0.1 - - [26/Apr/2026 18:26:58] "[36mGET / HTTP/1.1[0m" 304 -
+2026-04-26 18:27:02,770 [INFO] app: [Chat] Incoming: 'hostel process'
+2026-04-26 18:27:02,771 [INFO] app: [Chat] intent=hostel type=static conf=0.99 time=1.04ms
+2026-04-26 18:27:02,772 [INFO] werkzeug: 127.0.0.1 - - [26/Apr/2026 18:27:02] "POST /api/chat HTTP/1.1" 200 -
+2026-04-26 18:34:17,020 [INFO] werkzeug: 127.0.0.1 - - [26/Apr/2026 18:34:17] "[36mGET / HTTP/1.1[0m" 304 -
+2026-04-26 18:34:20,047 [INFO] app: [Chat] Incoming: 'Tell me about the university like a brochure'
+2026-04-26 18:34:20,050 [INFO] llm_handler: [LLM] Trying FREE LLM...
+2026-04-26 18:34:24,557 [INFO] app: [Chat] intent=llm_assist type=llm conf=0.6764245662803817 time=4508.68ms
+2026-04-26 18:34:24,560 [INFO] werkzeug: 127.0.0.1 - - [26/Apr/2026 18:34:24] "POST /api/chat HTTP/1.1" 200 -
+2026-04-26 18:40:32,093 [INFO] werkzeug: 127.0.0.1 - - [26/Apr/2026 18:40:32] "[36mGET / HTTP/1.1[0m" 304 -
+2026-04-26 18:40:41,812 [INFO] app: [Chat] Incoming: 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa'
+2026-04-26 18:40:41,813 [INFO] llm_handler: [LLM] Trying FREE LLM...
+2026-04-26 18:40:52,847 [INFO] app: [Chat] intent=llm type=llm conf=0.08552346978837348 time=11035.63ms
+2026-04-26 18:40:52,848 [INFO] werkzeug: 127.0.0.1 - - [26/Apr/2026 18:40:52] "POST /api/chat HTTP/1.1" 200 -
+2026-04-26 18:41:00,152 [INFO] werkzeug: 127.0.0.1 - - [26/Apr/2026 18:41:00] "[36mGET / HTTP/1.1[0m" 304 -
+2026-04-26 18:41:03,656 [INFO] app: [Chat] Incoming: '....'
+2026-04-26 18:41:03,657 [INFO] llm_handler: [LLM] Trying FREE LLM...
+2026-04-26 18:41:12,481 [INFO] app: [Chat] intent=llm type=llm conf=0.08552346978837348 time=8824.8ms
+2026-04-26 18:41:12,482 [INFO] werkzeug: 127.0.0.1 - - [26/Apr/2026 18:41:12] "POST /api/chat HTTP/1.1" 200 -
+2026-04-26 18:41:15,235 [INFO] werkzeug: 127.0.0.1 - - [26/Apr/2026 18:41:15] "[36mGET / HTTP/1.1[0m" 304 -
+2026-04-26 18:41:19,484 [INFO] app: [Chat] Incoming: 'njnmn,'
+2026-04-26 18:41:19,485 [INFO] llm_handler: [LLM] Trying FREE LLM...
+2026-04-26 18:41:30,591 [INFO] app: [Chat] intent=llm type=llm conf=0.08552346978837348 time=11106.56ms
+2026-04-26 18:41:30,592 [INFO] werkzeug: 127.0.0.1 - - [26/Apr/2026 18:41:30] "POST /api/chat HTTP/1.1" 200 -
+2026-04-27 14:57:51,823 [INFO] werkzeug: 10.185.239.47 - - [27/Apr/2026 14:57:51] "GET / HTTP/1.1" 200 -
+2026-04-27 14:58:06,811 [INFO] werkzeug: 10.185.239.47 - - [27/Apr/2026 14:58:06] "[31m[1mGET / HTTP/1.1[0m" 400 -
+2026-04-27 14:58:06,848 [INFO] werkzeug: 10.185.239.47 - - [27/Apr/2026 14:58:06] "[33mGET /loginMsg.js HTTP/1.1[0m" 404 -
+2026-04-27 14:58:06,856 [INFO] werkzeug: 10.185.239.47 - - [27/Apr/2026 14:58:06] "[33mGET /cgi/get.cgi?cmd=home_login HTTP/1.1[0m" 404 -
+2026-04-27 14:58:09,957 [INFO] werkzeug: 10.185.239.47 - - [27/Apr/2026 14:58:09] "[33mPOST /boaform/formTracert HTTP/1.1[0m" 404 -
+2026-05-03 00:30:25,216 [INFO] app: ============================================================
+2026-05-03 00:30:25,217 [INFO] app:   Jamia Hamdard Chatbot — Flask Server Starting
+2026-05-03 00:30:25,218 [INFO] app: ============================================================
+2026-05-03 00:30:25,376 [INFO] intent_handler: [IntentHandler] Model loaded. Tags: 28, Vocab: 326
+2026-05-03 00:30:25,378 [INFO] intent_handler: [IntentHandler] Initialized.
+2026-05-03 00:30:25,378 [INFO] app: ✅ Model loaded. 28 intents, 326 vocab words.
+2026-05-03 00:30:25,379 [INFO] app: LLM Mode: openrouter_llm
+2026-05-03 00:30:25,379 [INFO] app: Starting Flask server on http://0.0.0.0:5000
+2026-05-03 00:30:25,459 [INFO] werkzeug: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.101:5000
+2026-05-03 00:30:25,461 [INFO] werkzeug: [33mPress CTRL+C to quit[0m
+2026-05-03 00:30:35,084 [INFO] werkzeug: 127.0.0.1 - - [03/May/2026 00:30:35] "GET / HTTP/1.1" 200 -
+2026-05-03 00:30:40,216 [INFO] werkzeug: 127.0.0.1 - - [03/May/2026 00:30:40] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-05-03 00:30:50,694 [INFO] app: [Chat] Incoming: 'Latest news and events'
+2026-05-03 00:30:50,702 [INFO] scraper: [Scraper] Attempt 1/3: https://www.jamiahamdard.ac.in/news
+2026-05-03 00:30:51,284 [INFO] scraper: [Scraper] News page yielded nothing — trying homepage events section
+2026-05-03 00:30:51,284 [INFO] scraper: [Scraper] Attempt 1/3: https://www.jamiahamdard.ac.in/
+2026-05-03 00:30:51,591 [INFO] app: [Chat] intent=news type=dynamic conf=0.99 time=897.69ms
+2026-05-03 00:30:51,591 [INFO] werkzeug: 127.0.0.1 - - [03/May/2026 00:30:51] "POST /api/chat HTTP/1.1" 200 -
+2026-05-03 00:30:55,884 [INFO] app: [Chat] Incoming: 'What are the placement records?'
+2026-05-03 00:30:55,885 [INFO] llm_handler: [LLM] Trying FREE LLM...
+2026-05-03 00:31:00,590 [INFO] app: [Chat] intent=llm_assist type=llm conf=0.5751951162695194 time=4705.89ms
+2026-05-03 00:31:00,591 [INFO] werkzeug: 127.0.0.1 - - [03/May/2026 00:31:00] "POST /api/chat HTTP/1.1" 200 -
+2026-05-03 00:31:05,158 [INFO] app: [Chat] Incoming: 'What courses are offered?'
+2026-05-03 00:31:05,160 [INFO] app: [Chat] intent=courses type=static conf=0.99 time=3.02ms
+2026-05-03 00:31:05,165 [INFO] werkzeug: 127.0.0.1 - - [03/May/2026 00:31:05] "POST /api/chat HTTP/1.1" 200 -

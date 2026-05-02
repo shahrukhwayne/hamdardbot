@@ -1,0 +1,10 @@
+{
+  "layer_sizes": [
+    326,
+    128,
+    64,
+    28
+  ],
+  "learning_rate": 0.005,
+  "dropout_rate": 0.3
+}
