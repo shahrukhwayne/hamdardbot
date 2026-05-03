@@ -98,20 +98,35 @@ def chat():
 
         logger.info(f"[Chat] Incoming: '{user_message}'")
 
+        # Always use LLM (force detailed answers)
         handler = get_handler()
 
         if not handler.is_ready():
-            # Model not trained yet — use LLM directly
             response_text = llm_handler.llm_fallback(user_message)
+
             result = {
                 "response": response_text,
                 "intent": "llm_direct",
                 "confidence": 0.0,
                 "response_type": "llm",
-                "debug_trace": ["Model not trained — using LLM directly"],
+                "debug_trace": ["Model not trained — using LLM"],
             }
+
         else:
-            result = handler.handle(user_message)
+            try:
+                result = handler.handle(user_message)
+            except Exception as e:
+                print("🔥 HANDLER ERROR:", e)
+
+                response_text = llm_handler.llm_fallback(user_message)
+
+                result = {
+                    "response": response_text,
+                    "intent": "llm_backup",
+                    "confidence": 0.0,
+                    "response_type": "llm",
+                    "debug_trace": ["Fallback after handler crash"],
+                }
 
         # Update stats
         _stats["total_queries"] += 1
